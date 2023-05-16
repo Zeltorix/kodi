@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="script.module.zeltorix.utilitys" name="Набор инструментов" version="0.0.58" provider-name="ZelToRiX">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.python.module" library="resources/lib" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Дополнительные пакеты</summary>
+        <description lang="en_GB">"Здесь содержатся дополнительные пакеты, нужные для работы моих плагинов, что бы Вы
+            их не искали на просторах интернета
+        </description>
+    </extension>
+</addon>

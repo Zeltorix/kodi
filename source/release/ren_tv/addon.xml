@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="plugin.video.zeltorix.ren.tv" name="РЕН ТВ" version="0.1.22" provider-name="Zeltorix">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="xbmc.addon" version="19.1.0" />
+        <import addon="script.module.requests" version="2.27.1+matrix.1" />
+        <import addon="script.module.zeltorix.utilitys" version="0.0.1" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For site REN TV</summary>
+        <summary lang="ru_RU">Для сайта РЕН ТВ</summary>
+        <description lang="en_GB">To watch video on the REN TV project</description>
+        <description lang="ru_RU">Для просмотра прямого эфира и прочих видео доступных на сайте РЕН ТВ</description>
+        <disclaimer lang="en_GB">For Kodi «Matrix» 19</disclaimer>
+        <disclaimer lang="ru_RU">Для Kodi «Matrix» 19 и выше</disclaimer>
+        <news>
+            v0.1.1 (2023-05-08)
+                [new] Добавлен прямой эфир, тв программу, категории, поиск
+                [fix] Поправленные некоторые ссылки воспроизведения YouTube
+            ...
+            v0.0.1 (2023-03-01)
+                [new] Старт проекта
+                [fix]
+        </news>
+        <platform>all</platform>
+        <language>ru en
+        </language> 
+        <license>GPL-3-or-later</license>
+        <forum>http://xbmc.ru/forum/showthread.php?t=26920</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/release/develop/ren_tv</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon>

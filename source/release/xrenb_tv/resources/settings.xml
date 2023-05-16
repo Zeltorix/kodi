@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Логи">
+        <setting type="text" visible="true"
+                 label="В случае ошибки нужно включить запись логов и сбросить на форум"/>
+        <setting type="bool" id="log" visible="true" default="false"
+                 label="Включить запись логов"/>
+        <setting type="sep"/>
+    </category>
+</settings>

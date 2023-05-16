@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Интеграции">
+        <setting type="bool" id="united_search" visible="true" default="true"
+                 label="Интеграция с дополнением United Search"/>
+        <setting type="text" id="us_command" visible="false" default="router=search&keyword="/>
+        <setting type="sep"/>
+    </category>
+</settings>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Видео">
+        <setting type="text" visible="true"
+                 label="Если включено, все возможное видео подгоняется под разрешение экрана"/>
+        <setting type="text" visible="true"
+                 label="Если включено, для Прямого Эфира доступен буфер воспроизведения и субтитры"/>
+        <setting type="text" visible="true"
+                 label="Если выключено, выбирается максимально возможное разрешение видео"/>
+        <setting type="text" visible="true"
+                 label="Если выключено, для Прямого Эфира не доступнен буфер воспроизведения и субтитры"/>
+        <setting type="bool" id="inputstream_adaptive" visible="true" default="true"
+                 label="Активация inputstream.adaptive"/>
+        <setting type="sep"/>
+    </category>
+    <category label="Интеграции">
+        <setting type="bool" id="united_search" visible="true" default="true"
+                 label="Интеграция с дополнением United Search"/>
+        <setting type="text" id="us_command" visible="false" default="router=search&keyword="/>
+        <setting type="sep"/>
+    </category>
+</settings>
