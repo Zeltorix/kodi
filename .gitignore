@@ -130,6 +130,14 @@ dmypy.json
 
 
 # My
+/automation/
+/notes/
+/temp/
+/.idea
+/auto.py
+/del.py
+
+
 /source/develop/shiza_project/resources/lib/
 /repository/develop/plugin.video.zeltorix.shiza.project/*.zip
 /repository/develop/plugin.video.zeltorix.shiza.project/*.md5
@@ -147,10 +155,3 @@ dmypy.json
 /source/release/vk_video/resources/lib/
 
 
-
-/automation/
-/temp/
-/.idea
-/auto.py
-/del.py
-/info.txt

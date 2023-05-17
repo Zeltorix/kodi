@@ -192,7 +192,7 @@
             их не искали на просторах интернета
         </description>
     </extension>
-</addon><addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест)" version="0.0.9" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест)" version="0.0.10" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />
