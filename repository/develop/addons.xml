@@ -41,49 +41,6 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.ok.video" name="OK Видео (тест)" version="0.0.3" provider-name="Zeltorix">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0" />
-        <import addon="xbmc.gui" version="5.15.0" />
-        <import addon="xbmc.addon" version="19.1.0" />
-        <import addon="script.module.requests" version="2.27.1+matrix.1" />
-        <import addon="script.module.beautifulsoup4" version="0.0.0" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.video" library="addon.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">For site OK Video</summary>
-        <summary lang="ru_RU">Для сайта OK Видео</summary>
-        <description lang="en_GB">To watch video on the OK Video</description>
-        <description lang="ru_RU">Для просмотра видео доступных на сайте OK Видео</description>
-        <disclaimer lang="en_GB">For Kodi «Matrix» 19</disclaimer>
-        <disclaimer lang="ru_RU">Для Kodi «Matrix» 19 и выше</disclaimer>
-        <news>
-            v0.0.1 (2023-05-26)
-                [new]
-                [fix]
-            ...
-            v0.0.1 (2023-05-26)
-                [new] Старт проекта
-                [fix]
-        </news>
-        <platform>all</platform>
-        <language>ru en
-        </language> 
-        <license>GPL-3-or-later</license>
-        <forum>http://xbmc.ru/forum/showthread.php?t=</forum>
-        <source>https://github.com/Zeltorix/kodi/raw/main/source/develop/ok_video</source>
-        <assets>
-            <icon>icon.jpg</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <debugging>true</debugging>
-    </extension>
 </addon><addon id="repository.zeltorix.develop" name="ZelToRiX DEV Add-on repository" version="0.0.24" provider-name="ZelToRiX">
   <extension point="xbmc.addon.repository" name="ZelToRiX DEV Add-on repository">
     <dir minversion="19.0.0">
