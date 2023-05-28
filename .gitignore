@@ -146,6 +146,10 @@ dmypy.json
 /repository/develop/plugin.video.zeltorix.anime.aggregator/*.zip
 /repository/develop/plugin.video.zeltorix.anime.aggregator/*.md5
 
+/source/develop/ok_video/resources/lib/
+#/repository/develop/plugin.video.zeltorix.ok.video/*.zip
+#/repository/develop/plugin.video.zeltorix.ok.video/*.md5
+
 
 /source/release/anilibria/resources/lib/
 /source/release/utilitys/resources/lib/
