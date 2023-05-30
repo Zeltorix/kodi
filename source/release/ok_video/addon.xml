@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="plugin.video.zeltorix.ok.video" name="OK Видео (тест)" version="0.0.4" provider-name="Zeltorix">
+<addon id="plugin.video.zeltorix.ok.video" name="OK Видео (тест)" version="0.0.5" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />

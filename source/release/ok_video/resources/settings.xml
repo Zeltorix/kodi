@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
+    <category label="Видео">
+        <setting type="text" visible="true"
+                 label="Лень описывать"/>
+        <setting type="bool" id="inputstream_adaptive" visible="true" default="true"
+                 label="Активация inputstream.adaptive"/>
+        <setting type="sep"/>
+    </category>
     <category label="Интеграции">
         <setting type="bool" id="united_search" visible="true" default="true"
                  label="Интеграция с дополнением United Search"/>
