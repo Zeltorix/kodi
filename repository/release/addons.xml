@@ -235,12 +235,13 @@
             их не искали на просторах интернета
         </description>
     </extension>
-</addon><addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест)" version="0.0.15" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест)" version="0.0.16" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="xbmc.addon" version="19.1.0" />
         <import addon="script.module.requests" version="2.27.1+matrix.1" />
+        <import addon="script.module.beautifulsoup4" version="0.0.0" />
         <import addon="script.module.zeltorix.utilitys" version="0.0.1" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
