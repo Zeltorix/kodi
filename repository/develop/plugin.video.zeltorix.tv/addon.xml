@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="plugin.video.zeltorix.shiza.project" name="SHIZA Project" version="0.0.1" provider-name="Zeltorix">
+<addon id="plugin.video.zeltorix.tv" name="ТВ эфиры" version="0.0.2" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="xbmc.addon" version="19.1.0" />
-        <import addon="script.module.requests" version="2.27.1+matrix.1" />
+        <import addon="inputstream.adaptive" version="0.0.0" />
+        <import addon="script.module.m3u8" version="0.0.0" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -13,18 +14,15 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">For site SHIZA Project</summary>
-        <summary lang="ru_RU">Для сайта SHIZA Project</summary>
-        <description lang="en_GB">To watch video on the SHIZA Project</description>
-        <description lang="ru_RU">Для просмотра видео доступных на сайте SHIZA Project</description>
+        <summary lang="en_GB">ТВ Эфиры</summary>
+        <description lang="en_GB">ТВ Эфиры</description>
         <disclaimer lang="en_GB">For Kodi «Matrix» 19</disclaimer>
-        <disclaimer lang="ru_RU">Для Kodi «Matrix» 19 и выше</disclaimer>
         <news>
-            v0.0.1 (2023-05-29)
+            v0.0.1 (2023-06-08)
                 [new]
                 [fix]
             ...
-            v0.0.1 (2023-05-29)
+            v0.0.1 (2023-06-08)
                 [new] Старт проекта
                 [fix]
         </news>
@@ -33,7 +31,7 @@
         </language> 
         <license>GPL-3-or-later</license>
         <forum>http://xbmc.ru/forum/showthread.php?t=</forum>
-        <source>https://github.com/Zeltorix/kodi/raw/main/source/develop/shiza_project</source>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/develop/tv</source>
         <assets>
             <icon>icon.jpg</icon>
             <fanart>fanart.jpg</fanart>
