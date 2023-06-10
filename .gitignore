@@ -138,10 +138,6 @@ dmypy.json
 /del.py
 
 
-/source/develop/shiza_project/resources/lib/
-/repository/develop/plugin.video.zeltorix.shiza.project/*.zip
-/repository/develop/plugin.video.zeltorix.shiza.project/*.md5
-
 /source/develop/anime_aggregator/resources/lib/
 /repository/develop/plugin.video.zeltorix.anime.aggregator/*.zip
 /repository/develop/plugin.video.zeltorix.anime.aggregator/*.md5
@@ -157,5 +153,7 @@ dmypy.json
 /source/release/rutube/resources/lib/
 /source/release/vk_video/resources/lib/
 /source/release/ok_video/resources/lib/
+/source/release/shiza_project/resources/lib/
+
 
 

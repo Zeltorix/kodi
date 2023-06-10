@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="plugin.video.zeltorix.rutube" name="RUTUBE (тест)" version="0.0.20" provider-name="Zeltorix">
+<addon id="plugin.video.zeltorix.rutube" name="RUTUBE (тест)" version="0.0.21" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />
@@ -34,7 +34,7 @@
         </language> 
         <license>GPL-3-or-later</license>
         <forum>http://xbmc.ru/forum/showthread.php?t=</forum>
-        <source>https://github.com/Zeltorix/kodi/raw/main/source/develop/rutube</source>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/rutube</source>
         <assets>
             <icon>icon.jpg</icon>
             <fanart>fanart.jpg</fanart>
