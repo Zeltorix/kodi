@@ -13,5 +13,7 @@ from resources.lib.router import router
 from resources.lib.view import View
 
 if __name__ == '__main__':
-    View.check_modules()
+    # View.check_modules()
+    from resources.lib.model import get_video_addons
+    get_video_addons()
     router(sys.argv[2][1:])
