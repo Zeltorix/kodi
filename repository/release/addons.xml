@@ -178,7 +178,7 @@
       <icon>icon.jpg</icon>
     </assets>
   </extension>
-</addon><addon id="plugin.video.zeltorix.rutube" name="RUTUBE (тест)" version="0.0.22" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.rutube" name="RUTUBE (тест)" version="0.0.23" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />
