@@ -37,7 +37,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.ok.video" name="OK Видео (тест)" version="0.0.6" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.ok.video" name="OK Видео (тест)" version="0.0.7" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />
