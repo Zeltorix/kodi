@@ -6,6 +6,7 @@
 - RUTUBE
 - VK Видео
 - OK Видео
+- SHIZA Project
 
 #### Список скриптов:
 - utilitys
