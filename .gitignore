@@ -155,5 +155,14 @@ dmypy.json
 /source/release/ok_video/resources/lib/
 /source/release/shiza_project/resources/lib/
 
+/source/legacy/anilibria/resources/lib/
+/source/legacy/utilitys/resources/lib/
+/source/legacy/xrenb_tv/resources/lib/
+/source/legacy/ren_tv/resources/lib/
+/source/legacy/rutube/resources/lib/
+/source/legacy/vk_video/resources/lib/
+/source/legacy/ok_video/resources/lib/
+/source/legacy/shiza_project/resources/lib/
+
 
 

@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="repository.zeltorix.legacy" name="ZelToRiX Legacy Add-on repository" version="0.0.2" provider-name="ZelToRiX">
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="repository.zeltorix.legacy" name="ZelToRiX Legacy Add-on repository" version="0.0.2" provider-name="ZelToRiX">
   <extension point="xbmc.addon.repository" name="ZelToRiX Legacy Add-on repository">
     <dir minversion="18.0.0">
       <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/legacy/addons.xml</info>
@@ -25,4 +25,4 @@
       <icon>icon.jpg</icon>
     </assets>
   </extension>
-</addon></addons>
+</addon>
