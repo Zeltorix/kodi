@@ -29,4 +29,9 @@
         <setting type="text" id="us_command" visible="false" default="router=search&keyword="/>
         <setting type="sep"/>
     </category>
+    <category label="История поиска" visible="false">
+        <setting type="bool" id="history" visible="true" default="true"
+                 label="Включить историю поиска"/>
+        <setting type="text" id="history_dict" visible="false" default="{}"/>
+    </category>
 </settings>
