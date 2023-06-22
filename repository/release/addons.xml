@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.zeltorix.anilibria" version="0.1.2" name="Project AniLibria" provider-name="Zeltorix">
+<addons><addon id="plugin.video.zeltorix.anilibria" version="0.1.3" name="Project AniLibria" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />
@@ -37,7 +37,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.ok.video" name="OK Видео (тест)" version="0.0.9" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.ok.video" name="OK Видео (тест)" version="0.0.10" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />
@@ -80,7 +80,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.ren.tv" name="РЕН ТВ" version="0.1.29" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.ren.tv" name="РЕН ТВ" version="0.1.30" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />
@@ -178,7 +178,7 @@
       <icon>icon.jpg</icon>
     </assets>
   </extension>
-</addon><addon id="plugin.video.zeltorix.rutube" name="RUTUBE (тест)" version="0.0.31" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.rutube" name="RUTUBE (тест)" version="0.0.32" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />
@@ -221,7 +221,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.shiza.project" name="SHIZA Project (тест)" version="0.0.9" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.shiza.project" name="SHIZA Project (тест)" version="0.0.10" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />
@@ -278,7 +278,7 @@
             их не искали на просторах интернета
         </description>
     </extension>
-</addon><addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест)" version="0.0.20" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест)" version="0.0.21" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />
@@ -315,46 +315,6 @@
         <license>GPL-3-or-later</license>
         <forum>http://xbmc.ru/forum/showthread.php?t=26925</forum>
         <source>https://github.com/Zeltorix/kodi/raw/main/source/release/vk_video</source>
-        <assets>
-            <icon>icon.jpg</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <debugging>true</debugging>
-    </extension>
-</addon><addon id="plugin.video.zeltorix.xrenb.tv" name="Проекты РЕН ТВ, поддержка прекращается, перенесено в новый проект" version="0.0.52" provider-name="Zeltorix">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0" />
-        <import addon="xbmc.gui" version="5.15.0" />
-        <import addon="xbmc.addon" version="19.1.0" />
-        <import addon="script.module.requests" version="2.27.1+matrix.1" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.1" />
-    </requires>
-    
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.video" library="addon.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">For site xRENb TV</summary>
-        <summary lang="ru_RU">Для сайта ХРЕНЬ ТВ</summary>
-        <description lang="en_GB">To watch video on the REN TV project</description>
-        <description lang="ru_RU">Для просмотра видео на проекте РЕН ТВ</description>
-        <disclaimer lang="en_GB">For Kodi «Matrix» 19</disclaimer>
-        <disclaimer lang="ru_RU">Для Kodi «Matrix» 19</disclaimer>
-        <news>
-            v0.0.1 (2023-03-01)
-                [new]
-                [fix]
-        </news>
-        <platform>all</platform>
-        <language>ru en
-        </language> 
-        <license>GPL-3-or-later</license>
-        <forum>https://forum.kodi.tv/showthread.php?tid=xxxx</forum> 
-        <source>https://github.com/Zeltorix/kodi/raw/main/source/develop/xrenb_tv</source>
         <assets>
             <icon>icon.jpg</icon>
             <fanart>fanart.jpg</fanart>

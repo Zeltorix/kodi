@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.zeltorix.anime.aggregator" name="Агрегатор аниме реализов" version="0.0.17" provider-name="Zeltorix">
+<addons><addon id="plugin.video.zeltorix.anime.aggregator" name="Агрегатор аниме реализов" version="0.0.18" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />
@@ -67,7 +67,7 @@
       <icon>icon.jpg</icon>
     </assets>
   </extension>
-</addon><addon id="plugin.video.zeltorix.tv" name="ТВ эфиры" version="0.0.2" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.tv" name="ТВ эфиры" version="0.0.3" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />
