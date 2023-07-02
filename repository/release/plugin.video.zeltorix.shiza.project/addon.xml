@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="plugin.video.zeltorix.shiza.project" name="SHIZA Project (тест)" version="0.0.10" provider-name="Zeltorix">
+<addon id="plugin.video.zeltorix.shiza.project" name="SHIZA Project (тест)" version="0.0.11" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />
