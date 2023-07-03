@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.zeltorix.ok.animeru" name="Animeru (тест)" version="0.0.2" provider-name="Zeltorix">
+<addons><addon id="plugin.video.zeltorix.animeru" name="Animeru (тест)" version="0.0.3" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="xbmc.addon" version="19.1.0" />
         <import addon="script.module.requests" version="2.27.1+matrix.1" />
         <import addon="script.module.beautifulsoup4" version="0.0.0" />
+        <import addon="script.module.zeltorix.utilitys" version="0.0.1" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
