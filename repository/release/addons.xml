@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.zeltorix.anilibria" version="0.1.7" name="Project AniLibria" provider-name="Zeltorix">
+<addons><addon id="plugin.video.zeltorix.anilibria" version="0.1.8" name="Project AniLibria" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.gui" version="5.15.0" />
@@ -263,7 +263,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="script.module.zeltorix.utilitys" name="Набор инструментов" version="0.0.71" provider-name="ZelToRiX">
+</addon><addon id="script.module.zeltorix.utilitys" name="Набор инструментов" version="0.0.72" provider-name="ZelToRiX">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>

@@ -147,8 +147,8 @@ dmypy.json
 /repository/develop/plugin.video.zeltorix.tv/*.md5
 
 /source/develop/animeru/resources/lib/
-#/repository/develop/plugin.video.zeltorix.animeru/*.zip
-#/repository/develop/plugin.video.zeltorix.animeru/*.md5
+/repository/develop/plugin.video.zeltorix.animeru/*.zip
+/repository/develop/plugin.video.zeltorix.animeru/*.md5
 
 /source/release/anilibria/resources/lib/
 /source/release/utilitys/resources/lib/
