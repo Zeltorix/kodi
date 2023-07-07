@@ -146,10 +146,6 @@ dmypy.json
 /repository/develop/plugin.video.zeltorix.tv/*.zip
 /repository/develop/plugin.video.zeltorix.tv/*.md5
 
-/source/develop/animeru/resources/lib/
-#/repository/develop/plugin.video.zeltorix.animeru/*.zip
-#/repository/develop/plugin.video.zeltorix.animeru/*.md5
-
 /source/release/anilibria/resources/lib/
 /source/release/utilitys/resources/lib/
 /source/release/xrenb_tv/resources/lib/
@@ -158,6 +154,7 @@ dmypy.json
 /source/release/vk_video/resources/lib/
 /source/release/ok_video/resources/lib/
 /source/release/shiza_project/resources/lib/
+/source/release/animeru/resources/lib/
 
 /source/legacy/anilibria/resources/lib/
 /source/legacy/utilitys/resources/lib/
