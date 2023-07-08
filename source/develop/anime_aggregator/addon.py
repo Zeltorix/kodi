@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Module: addon
 # Author: Zeltorix
-# Created on: 2023.05.26
+# Created on: 2023.04.19
 # License: GPL v.3 https://www.gnu.org/copyleft/gpl.html
 """
 Плагин для KODI 19.x "Matrix" и выше.
