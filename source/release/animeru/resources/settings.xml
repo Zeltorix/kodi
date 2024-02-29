@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Видео">
+        <setting type="bool"
+                 id="inputstream_adaptive"
+                 visible="true"
+                 default="true"
+                 label="Активация inputstream.adaptive"
+        />
+        <setting type="sep"/>
+        <setting type="select" id="size_video" label="Разрешение SD(480p)|HD(720p)|FHD(1080p)" values="480p|720p|1080p"
+                 default="720p"/>
+        <setting type="sep"/>
+    </category>
+    <category label="Интеграции">
+        <setting type="bool"
+                 id="united_search"
+                 visible="true"
+                 default="false"
+                 label="Интеграция с поисковым плагином United Search"
+        />
+        <setting type="sep"/>
+        <setting type="text"
+                 id="us_command"
+                 visible="false"
+                 default="router=search&keyword="
+        />
+        <setting type="sep"/>
+    </category>
+    <category label="История">
+        <setting type="bool"
+                 id="history"
+                 visible="true"
+                 default="true"
+                 label="Включить историю поиска"
+        />
+        <setting label="Количество записей"
+                 type="slider"
+                 id="history_limit"
+                 default="50"
+                 range="1,5000"
+                 option="int"
+        />
+        <setting label="Очистить всю историю"
+                 type="action"
+                 action="RunPlugin(plugin://plugin.video.zeltorix.animeru/?router=history_clearing)"
+        />
+        <setting type="sep"/>
+                <setting type="bool"
+                 id="history_realise"
+                 visible="true"
+                 default="true"
+                 label="Включить пункт последний просмотр"
+        />
+        <setting type="sep"/>
+    </category>
+    <category label="Библиотека">
+        <setting type="bool"
+                 id="library"
+                 visible="true"
+                 default="true"
+                 label="Включить библиотеку"
+        />
+        <setting label="Путь библиотеки-источника"
+                 type="folder"
+                 id="library_folder"
+                 source="auto"
+                 option="writeable"
+                 default=""
+        />
+        <setting label="Вернуть путь по умолчанию"
+                 type="action"
+                 action="RunPlugin(plugin://plugin.video.zeltorix.animeru/?router=library_folder_default)"
+        />
+        <setting type="sep"/>
+        <setting label="Удалить библиотеку-источник"
+                 type="action"
+                 action="RunPlugin(plugin://plugin.video.zeltorix.animeru/?router=library_folder_del)"
+        />
+        <setting type="sep"/>
+    </category>
+</settings>

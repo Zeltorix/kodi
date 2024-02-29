@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Видео">
+        <setting type="select" id="month" label="За сколько месяцев отображать обновление"
+                 values="1|2|3|4|5|6|7|8|9|10|11|12"
+                 default="6"/>
+        <setting type="sep"/>
+        <setting type="select" id="size_video" label="Разрешение SD(480p)|HD(720p)|FHD(1080p)" values="SD|HD|FHD"
+                 default="HD"/>
+        <setting type="sep"/>
+        <setting type="text" visible="true"
+                 label="Подорожник к пропускам сцен во время воспроизведения"/>
+        <setting type="bool" id="inputstream_adaptive" visible="true" default="true"
+                 label="Активация inputstream.adaptive"/>
+        <setting type="sep"/>
+    </category>
+    <category label="YouTube">
+        <setting type="text" visible="true"
+                 label="Обзоры стримы и т.д. Пока что глючит, но работает"/>
+        <setting type="bool" id="youtube" visible="true" default="true"
+                 label="Включить пункт меню"/>
+        <setting type="sep"/>
+        <setting type="select" id="youtube_video" label="Разрешение SD(360p) или HD(720p)" values="360P|720p"
+                 default="720p"/>
+    </category>
+    <category label="Интеграции">
+        <setting type="bool" id="united_search" visible="true" default="true"
+                 label="Интеграция с дополнением United Search"/>
+        <setting type="text" id="us_command" visible="false" default="router=search&keyword="/>
+        <setting type="sep"/>
+    </category>
+    <category label="История поиска" visible="false">
+        <setting type="bool" id="history" visible="true" default="true"
+                 label="Включить историю поиска"/>
+        <setting type="text" id="history_dict" visible="false" default="{}"/>
+    </category>
+</settings>

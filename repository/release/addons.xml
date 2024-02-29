@@ -1,0 +1,623 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="plugin.video.zeltorix.allserial" name="Allserial (тест)" version="0.0.42" provider-name="Zeltorix">
+    <requires>
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+        <import addon="inputstream.adaptive" version="0.0.0" />
+        <import addon="script.module.zeltorix.utilitys" version="0.0.76" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For site Allserial</summary>
+        <summary lang="ru_RU">Для сайта Allserial</summary>
+        <description lang="en_GB">To watch video on the Allserial</description>
+        <description lang="ru_RU">Для просмотра видео доступных на сайте Allserial</description>
+        <disclaimer lang="en_GB">For Kodi «Matrix» 19</disclaimer>
+        <disclaimer lang="ru_RU">Для Kodi «Matrix» 19 и выше</disclaimer>
+        <news>
+            v0.0.1 (2023-09-13)
+                [new]
+                [fix]
+            ...
+            v0.0.1 (2023-09-13)
+                [new] Старт проекта
+                [fix]
+        </news>
+        <platform>all</platform>
+        <language>ru en
+        </language> 
+        <license>GPL-3-or-later</license>
+        <forum>http://xbmc.ru/forum/showthread.php?t=26925</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/allserial</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon><addon id="plugin.video.zeltorix.anilibria" version="0.1.20" name="AniLibria" provider-name="Zeltorix">
+    <requires>
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+        <import addon="script.module.requests" version="2.25.1" />
+        <import addon="script.module.zeltorix.utilitys" version="0.0.1" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For site AniLibria</summary>
+        <summary lang="ru_RU">Для сайта AniLibria</summary>
+        <description lang="en_GB">To watch anime on the AniLibria project</description>
+        <description lang="ru_RU">Для просмотра аниме на проекте AniLibria</description>
+        <disclaimer lang="en_GB">For Kodi «Matrix» 19</disclaimer>
+        <disclaimer lang="ru_RU">Для Kodi «Matrix» 19</disclaimer>
+        <news>
+            v0.0.118 (2023-04-28)
+                [fix] Очередные правки
+            ...
+            v0.0.1 (2023-01-14)
+                [new] Старт проекта
+        </news>
+        <platform>all</platform>
+        <language>ru en
+        </language> 
+        <license>GPL-3-or-later</license>
+        <forum>http://xbmc.ru/forum/showthread.php?t=26919</forum>
+        <source>https://github.com/Zeltorix/kodi/source/release/anilibria</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon><addon id="plugin.video.zeltorix.animeru" name="Animeru" version="0.0.37" provider-name="Zeltorix">
+
+    <requires>
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+        <import addon="script.module.zeltorix.utilitys" version="0.0.149" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <language>ru en</language>
+
+        <summary lang="en_GB">For site Animeru</summary>
+        <description lang="en_GB">To watch video on the Animeru</description>
+        <disclaimer lang="en_GB">Unofficial plugin for Kodi «Matrix» 19 and later</disclaimer>
+
+        <summary lang="ru_RU">База №1 по просмотру аниме онлайн бесплатно</summary>
+        <description lang="ru_RU">Аниме - это искусство мультипликации зародилось еще в XX в. на Востоке, в далекой Японии. Но что удивительно, своим названием этот жанр обязан вовсе не японскому слову. Как вы уже догадались, слово «аниме» это всего лишь сокращение от английского «animation», которое получило успешное распространение из-за своей простоты произношения. Однако, не нужно торопиться. Ведь именно познав простоту и легкость этого удивительного жанра, вы возможно познаете себя. Японская анимация обладает качественными отличиями от своих европейских собратьев. Все дело в особом менталитете и, конечно же, оригинальной рисовке.</description>
+        <disclaimer lang="ru_RU">Не официальный плагин для Kodi «Matrix» 19 и выше</disclaimer>
+
+        <news>
+            v0.0.1 (2023-07-04)
+                [new]
+                [fix]
+            ...
+            v0.0.1 (2023-07-04)
+                [new] Старт проекта
+                [fix]
+        </news>
+
+        <license>GPL-3-or-later</license>
+        <forum />
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/Animeru</source>
+
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+
+        <platform>all</platform>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+
+    </extension>
+</addon><addon id="plugin.video.zeltorix.animevost" name="AnimeVost (тест)" version="0.0.5" provider-name="Zeltorix">
+    <requires>
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+        <import addon="script.module.zeltorix.utilitys" version="0.0.198" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For site AnimeVost</summary>
+        <summary lang="ru_RU">Для сайта AnimeVost</summary>
+        <description lang="en_GB">To watch video on the AnimeVost</description>
+        <description lang="ru_RU">Для просмотра видео доступных на сайте AnimeVost</description>
+        <disclaimer lang="en_GB">For Kodi «Matrix» 19</disclaimer>
+        <disclaimer lang="ru_RU">Для Kodi «Matrix» 19 и выше</disclaimer>
+        <news>
+            v0.0.1 (2024-02-07)
+                [new]
+                [fix]
+            ...
+            v0.0.1 (2024-02-07)
+                [new] Старт проекта
+                [fix]
+        </news>
+        <platform>all</platform>
+        <language>ru en
+        </language> 
+        <license>GPL-3-or-later</license>
+        <forum>https://kodi.moy.su/forum/2-32-1</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/animevost</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon><addon id="plugin.video.zeltorix.krasview" name="Krasview (Тест)" version="0.0.26" provider-name="Zeltorix">
+    <requires>
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+        <import addon="inputstream.adaptive" version="0.0.0" />
+        <import addon="script.module.zeltorix.utilitys" version="0.0.124" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For site Krasview</summary>
+        <summary lang="ru_RU">Для сайта Krasview</summary>
+        <description lang="en_GB">To watch video on the Krasview</description>
+        <description lang="ru_RU">Для просмотра видео доступных на сайте Krasview</description>
+        <disclaimer lang="en_GB">For Kodi «Matrix» 19</disclaimer>
+        <disclaimer lang="ru_RU">Для Kodi «Matrix» 19 и выше</disclaimer>
+        <news>
+            v0.0.1 (2023-07-17)
+                [new]
+                [fix]
+            ...
+            v0.0.1 (2023-07-17)
+                [new] Старт проекта
+                [fix]
+        </news>
+        <platform>all</platform>
+        <language>ru en
+        </language> 
+        <license>GPL-3-or-later</license>
+        <forum>http://xbmc.ru/forum/showthread.php?t=</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/krasview</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon><addon id="plugin.video.zeltorix.ok.video" name="OK Видео (тест)" version="0.0.25" provider-name="Zeltorix">
+    <requires>
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+        <import addon="script.module.requests" version="2.25.1" />
+        <import addon="script.module.beautifulsoup4" version="4.8.2" />
+        <import addon="script.module.zeltorix.utilitys" version="0.0.156" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For site OK Video</summary>
+        <summary lang="ru_RU">Для сайта OK Видео</summary>
+        <description lang="en_GB">To watch video on the OK Video</description>
+        <description lang="ru_RU">Для просмотра видео доступных на сайте OK Видео</description>
+        <disclaimer lang="en_GB">For Kodi «Matrix» 19</disclaimer>
+        <disclaimer lang="ru_RU">Для Kodi «Matrix» 19 и выше</disclaimer>
+        <news>
+            v0.0.1 (2023-05-26)
+                [new]
+                [fix]
+            ...
+            v0.0.1 (2023-05-26)
+                [new] Старт проекта
+                [fix]
+        </news>
+        <platform>all</platform>
+        <language>ru en
+        </language> 
+        <license>GPL-3-or-later</license>
+        <forum>http://xbmc.ru/forum/showthread.php?t=</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/ok_video</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon><addon id="script.module.zeltorix.packages" name="Набор пакетов и модулей" version="0.0.23" provider-name="ZelToRiX">
+    <requires>
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+        <import addon="inputstream.adaptive" version="0.0.0" optional="true" />
+        <import addon="script.module.beautifulsoup4" version="0.0.0" />
+
+
+        <import addon="script.module.requests" version="0.0.0" optional="true" />
+        <import addon="script.module.mutagen" version="0.0.0" optional="true" />
+
+    </requires>
+
+
+
+    <extension point="xbmc.python.module" library="resources/lib" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Дополнительные пакеты и модули</summary>
+        <description lang="en_GB">Дополнительные пакеты и модули для моих плагинов</description>
+        <language>ru en</language>
+        <license>GPL-3-or-later</license>
+        <forum>http://xbmc.ru/forum/showthread.php?t=26918</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/packages</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon><addon id="plugin.video.zeltorix.ren.tv" name="РЕН ТВ" version="0.3.32" provider-name="Zeltorix">
+    <requires>
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+        <import addon="script.module.zeltorix.utilitys" version="0.0.145" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For the REN TV website</summary>
+        <summary lang="ru_RU">Для сайта РЕН ТВ</summary>
+        <description lang="en_GB">To watch the live broadcast and other videos available on the REN TV website</description>
+        <description lang="ru_RU">Для просмотра прямого эфира и прочих видео доступных на сайте РЕН ТВ</description>
+        <disclaimer lang="en_GB">Unofficial plugin</disclaimer>
+        <disclaimer lang="ru_RU">Не официальный плагин</disclaimer>
+        <news>
+            v0.1.1 (2023-05-08)
+                [new] Добавлен прямой эфир, тв программу, категории, поиск
+                [fix] Поправленные некоторые ссылки воспроизведения YouTube
+            ...
+            v0.0.1 (2023-03-01)
+                [new] Старт проекта
+        </news>
+        <platform>all</platform>
+        <language>ru</language>
+        <license>GPL-3-or-later</license>
+        <forum>http://xbmc.ru/forum/showthread.php?t=26920</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/release/ren_tv</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon><addon id="repository.zeltorix" name="ZelToRiX Add-on repository" version="0.1.3" provider-name="ZelToRiX">
+    <extension point="xbmc.addon.repository" name="ZelToRiX Add-on repository">
+        <dir minversion="19.0.0" maxversion="19.99.0">
+            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release/</datadir>
+        </dir>
+        <dir minversion="20.0.0" maxversion="20.99.0">
+            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release/</datadir>
+        </dir>
+        <dir minversion="21.0.0" maxversion="21.99.0">
+            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release/</datadir>
+        </dir>
+        <dir minversion="22.0.0" maxversion="22.99.0">
+            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Install Add-ons from ZelToRiX repository</summary>
+        <summary lang="ru">Установить дополнения от ZelToRiX</summary>
+        <description lang="en">Download and install add-ons from the ZelToRiX add-on repository</description>
+        <description lang="ru">Репозитории дополнений для разных проектов.</description>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/repository</source>
+        <platform>all</platform>
+        <news>
+            v0.0.30 (2023-05-13)
+            [fix] Исправлен адрес для обновления, теперь согласно регистру символов
+            ...
+            v0.0.1 (2023-01-27)
+            [new] Создание репозитории для Kodi 19
+            [fix] ...
+        </news>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.jpg</icon>
+        </assets>
+    </extension>
+</addon><addon id="repository.zeltorix.develop" name="ZelToRiX DEV Add-on repository" version="0.0.27" provider-name="ZelToRiX">
+  <extension point="xbmc.addon.repository" name="ZelToRiX DEV Add-on repository">
+    <dir minversion="19.0.0" maxversion="23.0.0">
+      <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/develop/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/develop/addons.xml.md5</checksum>
+      <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/develop/</datadir>
+    </dir>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Install Add-ons from ZelToRiX DEV repository</summary>
+    <summary lang="ru">Установить дополнения от ZelToRiX DEV</summary>
+    <description lang="en">Download and install add-ons from the ZelToRiX add-on repository</description>
+    <description lang="ru">Репозитория с попытками создать плагины</description>
+    <source>https://github.com/Zeltorix/kodi/raw/main/source/develop/repository_develop</source>
+    <platform>all</platform>
+    <news>
+      v0.0.1 (2023-01-27)
+      [new] Создание репозитории для Kodi 19
+      [fix] ...
+    </news>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.jpg</icon>
+    </assets>
+  </extension>
+</addon><addon id="plugin.video.zeltorix.rutube" name="RUTUBE (тест)" version="0.0.52" provider-name="Zeltorix">
+    <requires>
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+        <import addon="script.module.requests" version="2.25.1" />
+        <import addon="script.module.zeltorix.utilitys" version="0.0.1" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For site RUTUBE</summary>
+        <summary lang="ru_RU">Для сайта RUTUBE</summary>
+        <description lang="en_GB">To watch video on the RUTUBE</description>
+        <description lang="ru_RU">Для просмотра видео доступных на сайте RUTUBE</description>
+        <disclaimer lang="en_GB">For Kodi «Matrix» 19</disclaimer>
+        <disclaimer lang="ru_RU">Для Kodi «Matrix» 19 и выше</disclaimer>
+        <news>
+            v0.0.1 (2023-05-01)
+                [new]
+                [fix]
+            ...
+            v0.0.1 (2023-05-01)
+                [new] Старт проекта
+                [fix]
+        </news>
+        <platform>all</platform>
+        <language>ru en
+        </language> 
+        <license>GPL-3-or-later</license>
+        <forum>http://xbmc.ru/forum/showthread.php?t=</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/rutube</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon><addon id="plugin.video.zeltorix.shiza.project" name="SHIZA Project (тест)" version="0.0.23" provider-name="Zeltorix">
+    <requires>
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+        <import addon="script.module.zeltorix.utilitys" version="0.0.124" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For site SHIZA Project</summary>
+        <summary lang="ru_RU">Для сайта SHIZA Project</summary>
+        <description lang="en_GB">To watch video on the SHIZA Project</description>
+        <description lang="ru_RU">Для просмотра видео доступных на сайте SHIZA Project</description>
+        <disclaimer lang="en_GB">For Kodi «Matrix» 19</disclaimer>
+        <disclaimer lang="ru_RU">Для Kodi «Matrix» 19 и выше</disclaimer>
+        <news>
+            v0.0.1 (2023-05-29)
+                [new]
+                [fix]
+            ...
+            v0.0.1 (2023-05-29)
+                [new] Старт проекта
+                [fix]
+        </news>
+        <platform>all</platform>
+        <language>ru en
+        </language> 
+        <license>GPL-3-or-later</license>
+        <forum>http://xbmc.ru/forum/showthread.php?t=</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/shiza_project</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon><addon id="plugin.video.zeltorix.softboxtv" name="Softboxtv (тест)" version="0.0.26" provider-name="Zeltorix">
+    <requires>
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+        <import addon="script.module.zeltorix.utilitys" version="0.0.76" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For site Softboxtv</summary>
+        <summary lang="ru_RU">Для сайта Softboxtv</summary>
+        <description lang="en_GB">To watch video on the Softboxtv</description>
+        <description lang="ru_RU">Для просмотра видео доступных на сайте Softboxtv</description>
+        <disclaimer lang="en_GB">For Kodi «Matrix» 19</disclaimer>
+        <disclaimer lang="ru_RU">Для Kodi «Matrix» 19 и выше</disclaimer>
+        <news>
+            v0.0.1 (2023-08-25)
+                [new]
+                [fix]
+            ...
+            v0.0.1 (2023-08-25)
+                [new] Старт проекта
+                [fix]
+        </news>
+        <platform>all</platform>
+        <language>ru en
+        </language> 
+        <license>GPL-3-or-later</license>
+        <forum>http://xbmc.ru/forum/showthread.php?t=26925</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/softboxtv</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon><addon id="script.module.zeltorix.utilitys" name="Набор инструментов" version="0.0.202" provider-name="ZelToRiX">
+    <requires>
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+        <import addon="script.module.zeltorix.packages" version="0.0.12" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.python.module" library="resources/lib" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Дополнительные пакеты</summary>
+        <description lang="en_GB">Дополнения для моих плагинов
+        </description>
+        <language>ru en</language>
+        <license>GPL-3-or-later</license>
+        <forum>http://xbmc.ru/forum/showthread.php?t=26918</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/utilitys</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon><addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест)" version="0.0.46" provider-name="Zeltorix">
+    <requires>
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+        <import addon="script.module.beautifulsoup4" version="4.8.2" />
+        <import addon="script.module.zeltorix.utilitys" version="0.0.1" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For site VK</summary>
+        <summary lang="ru_RU">Для сайта VK</summary>
+        <description lang="en_GB">To watch video on the VK</description>
+        <description lang="ru_RU">Для просмотра видео доступных на сайте VK</description>
+        <disclaimer lang="en_GB">For Kodi «Matrix» 19</disclaimer>
+        <disclaimer lang="ru_RU">Для Kodi «Matrix» 19 и выше</disclaimer>
+        <news>
+            v0.0.1 (2023-05-12)
+                [new]
+                [fix]
+            ...
+            v0.0.1 (2023-05-12)
+                [new] Старт проекта
+                [fix]
+        </news>
+        <platform>all</platform>
+        <language>ru en
+        </language> 
+        <license>GPL-3-or-later</license>
+        <forum>http://xbmc.ru/forum/showthread.php?t=26925</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/vk_video</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon><addon id="plugin.video.zeltorix.worldcams.tv" name="World Cams (тест)" version="0.0.25" provider-name="Zeltorix">
+    <requires>
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+        <import addon="inputstream.adaptive" version="0.0.0" />
+        <import addon="script.module.zeltorix.utilitys" version="0.0.103" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For the worldcams.tv website</summary>
+        <summary lang="ru_RU">Для сайта worldcams.tv</summary>
+        <description lang="en_GB">To watch the live broadcast and other videos available on the worldcams.tv website</description>
+        <description lang="ru_RU">Для просмотра прямого эфира и прочих видео доступных на сайте worldcams.tv</description>
+        <disclaimer lang="en_GB">Unofficial plugin</disclaimer>
+        <disclaimer lang="ru_RU">Не официальный плагин</disclaimer>
+        <news>
+            v0.0.1 (2023-10-30)
+                [new]
+                [fix]
+            ...
+            v0.0.1 (2023-10-30)
+                [new] Старт проекта
+        </news>
+        <platform>all</platform>
+        <language>ru</language>
+        <license>GPL-3-or-later</license>
+        <forum>http://xbmc.ru/forum/showthread.php?t=26920</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/release/worldcams_tv</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon></addons>
