@@ -391,7 +391,7 @@
       <icon>icon.jpg</icon>
     </assets>
   </extension>
-</addon><addon id="plugin.video.zeltorix.rutube" name="RUTUBE (тест)" version="0.0.52" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.rutube" name="RUTUBE (тест)" version="0.0.53" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
         <import addon="script.module.requests" version="2.25.1" />
