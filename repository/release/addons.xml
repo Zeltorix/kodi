@@ -391,7 +391,7 @@
       <icon>icon.jpg</icon>
     </assets>
   </extension>
-</addon><addon id="plugin.video.zeltorix.rutube" name="RUTUBE (тест)" version="0.0.53" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.rutube" name="RUTUBE (тест)" version="0.0.54" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
         <import addon="script.module.requests" version="2.25.1" />
@@ -512,7 +512,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="script.module.zeltorix.utilitys" name="Набор инструментов" version="0.0.203" provider-name="ZelToRiX">
+</addon><addon id="script.module.zeltorix.utilitys" name="Набор инструментов" version="0.0.204" provider-name="ZelToRiX">
     <requires>
         <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
         <import addon="script.module.zeltorix.packages" version="0.0.12" />
