@@ -3,7 +3,7 @@
 <!--Всегда должна быть версия 1 для работы настроек секции-->
 <settings version="1">
 <!--  Здесь должно быть ID плагина, хотя работает с любым значением-->
-  <section id="plugin.video.zeltorix.animevost">
+  <section id="plugin.video.zeltorix.anilibria">
 <!--    Категория меню Видео-->
     <category id="video_category" label="30000" help="30001">
 <!--      Пункты настройки inputstream-->
@@ -173,4 +173,3 @@
       </setting>
   </section>
 </settings>
-
