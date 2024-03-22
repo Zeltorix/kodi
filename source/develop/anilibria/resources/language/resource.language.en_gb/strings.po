@@ -40,8 +40,8 @@ msgid "Настройки inputstream"
 msgstr "Настройки inputstream"
 
 msgctxt "#30003"
-msgid "Настроить inputstream, используется ffmpegdirect"
-msgstr "Настроить inputstream, используется ffmpegdirect"
+msgid "Настроить inputstream, используется ffmpegdirect(AniLibria, YouTube), adaptive(RuTube)"
+msgstr "Настроить inputstream, используется ffmpegdirect(AniLibria, YouTube), adaptive(RuTube)"
 
 msgctxt "#30004"
 msgid "Переход в настройки плагина script.module.zeltorix.utilitys"
