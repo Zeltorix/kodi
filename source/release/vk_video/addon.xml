@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест)" version="0.0.47" provider-name="Zeltorix">
+<addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест)" version="0.0.48" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
-        <import addon="script.module.beautifulsoup4" version="4.8.2" />
+        <import addon="script.module.requests" version="0.0.0" optional="true" />
         <import addon="script.module.zeltorix.utilitys" version="0.0.1" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
