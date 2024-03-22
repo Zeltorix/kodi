@@ -161,15 +161,37 @@
         </setting>
       </group>
     </category>
-      <setting id="url" type="string" label="" help="">
-        <level>4</level>
-        <default/>
-        <constraints>
-            <allowempty>true</allowempty>
-        </constraints>
-        <control type="edit" format="string">
-            <heading> </heading>
-        </control>
-      </setting>
+    <category id="auth" label="30200" help="30201">
+      <group id="auth_group" label="30202">
+<!--      Отображение пункта Авторизация-->
+        <setting id="auth_bool" type="boolean" label="30203" help="30204">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+<!--      Оставшиеся время авторизации-->
+        <setting id="auth_timestamp" type="path" label="30205" help="30156">
+            <level>0</level>
+            <default/>
+            <constraints>
+                <allowempty>true</allowempty>
+            </constraints>
+            <control type="button" format="path">
+                <heading>30207</heading>
+            </control>
+        </setting>
+          <!--    Дата истечения сессии-->
+        <setting id="auth_time" type="string" label="" help="">
+            <level>4</level>
+            <default/>
+            <constraints>
+                <allowempty>true</allowempty>
+            </constraints>
+            <control type="edit" format="string">
+                <heading> </heading>
+            </control>
+        </setting>
+      </group>
+    </category>
   </section>
 </settings>
