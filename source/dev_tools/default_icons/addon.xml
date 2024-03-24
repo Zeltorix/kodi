@@ -1,10 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="plugin.video.zeltorix.default.icons" name="Viewing standard KODI icons" version="0.0.4" provider-name="Zeltorix">
+<addon id="plugin.video.zeltorix.default.icons" name="Viewing standard KODI icons" version="0.0.5" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
-        <import addon="xbmc.gui" version="5.15.0" />
-        <import addon="xbmc.addon" version="19.1.0" />
-        <import addon="script.module.beautifulsoup4" version="4.12.0" />
         <import addon="script.module.zeltorix.utilitys" version="0.0.123" />
     </requires>
     

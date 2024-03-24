@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="plugin.video.zeltorix.default.icons" name="Viewing standard KODI icons" version="0.0.5" provider-name="Zeltorix">
+<addon id="plugin.default_template" name="Пример плагина" version="0.0.1" provider-name="Zeltorix">
+
     <requires>
-        <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.123" />
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
     </requires>
     
     <extension point="xbmc.python.pluginsource" library="addon.py">
@@ -17,18 +17,14 @@
         <description lang="en_GB">Viewing standard KODI icons</description>
         <disclaimer lang="en_GB">Unofficial plugin</disclaimer>
         <news>
-            v0.0.1 (2023-11-30)
-                [new]
-                [fix]
-            ...
-            v0.0.1 (2023-11-30)
+            v0.0.1 (2024-03-01)
                 [new] Старт проекта
         </news>
         <platform>all</platform>
         <language>en</language>
         <license>GPL-3-or-later</license>
-        <forum>http://xbmc.ru/forum/showthread.php?t=26918</forum>
-        <source>https://github.com/Zeltorix/kodi/raw/main/release/default_icons</source>
+        <forum>https://kodi.moy.su/forum/2</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/dev_tools/default_icons</source>
         <assets>
             <icon>icon.jpg</icon>
             <fanart>fanart.jpg</fanart>
