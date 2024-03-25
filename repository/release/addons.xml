@@ -251,7 +251,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="script.module.zeltorix.packages" name="Набор пакетов и модулей" version="0.0.25" provider-name="ZelToRiX">
+</addon><addon id="script.module.zeltorix.packages" name="Набор пакетов и модулей" version="0.0.26" provider-name="ZelToRiX">
     <requires>
         <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
         <import addon="inputstream.adaptive" version="0.0.0" />
