@@ -50,7 +50,7 @@
             </control>
 <!--            Не работает нужно уточнить как заставить работать-->
             <dependencies>
-                <dependency type="visible" operator="System.HasAddon(plugin.video.united.search)">true</dependency>
+                <dependency type="visible" operator="System.HasAddon(plugin.video.united.search)">false</dependency>
             </dependencies>
         </setting>
         <!--        Включение United Search-->
@@ -81,7 +81,7 @@
             </control>
 <!--            Не работает нужно уточнить как заставить работать-->
             <dependencies>
-                <dependency type="visible" operator="System.HasAddon(plugin.video.zeltorix.shikimori)">true</dependency>
+                <dependency type="visible" operator="System.HasAddon(plugin.video.zeltorix.shikimori)">false</dependency>
             </dependencies>
         </setting>
         <!--        Включение Shikimori-->
