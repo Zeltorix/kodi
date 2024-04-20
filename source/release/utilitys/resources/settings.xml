@@ -11,7 +11,7 @@
 <!--        Выбор поставщика-->
         <setting id="proxy_type" type="integer" label="30005">
           <level>1</level>
-          <default>2</default>
+          <default>1</default>
           <constraints>
             <options>
               <option label="30007">0</option>
