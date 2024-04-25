@@ -166,7 +166,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.krasview" name="Krasview (Тест)" version="0.0.26" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.krasview" name="Krasview (Тест)" version="0.0.27" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
         <import addon="inputstream.adaptive" version="0.0.0" />
@@ -477,7 +477,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.softboxtv" name="Softboxtv (тест)" version="0.0.26" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.softboxtv" name="Softboxtv (тест)" version="0.0.27" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
         <import addon="script.module.zeltorix.utilitys" version="0.0.76" />
