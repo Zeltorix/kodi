@@ -100,4 +100,13 @@
         />
         <setting type="sep"/>
     </category>
+    <category label="Прокси">
+        <setting type="bool"
+                 id="proxy_bool"
+                 visible="true"
+                 default="false"
+                 label="Включить"
+        />
+        <setting type="sep"/>
+    </category>
 </settings>
