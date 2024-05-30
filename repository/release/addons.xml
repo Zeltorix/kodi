@@ -76,7 +76,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.animeru" name="Animeru" version="0.0.39" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.animeru" name="Animeru" version="0.0.40" provider-name="Zeltorix">
 
     <requires>
         <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
