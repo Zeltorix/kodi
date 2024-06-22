@@ -40,7 +40,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.anibaza" name="AniBaza (тест)" version="0.0.2" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.anibaza" name="AniBaza (тест)" version="0.0.3" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
         <import addon="script.module.zeltorix.utilitys" version="0.0.220" />
