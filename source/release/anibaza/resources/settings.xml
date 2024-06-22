@@ -236,22 +236,6 @@
                 <dependency type="visible" setting="cache">true</dependency>
             </dependencies>
         </setting>
-<!--          Минуты кэша хранения youtube-->
-        <setting id="cache_time_youtube" type="integer" label="30216" help="30217">
-            <level>1</level>
-            <default>60</default>
-            <constraints>
-                <minimum>0</minimum>
-                <step>1</step>
-                <maximum>10080</maximum>
-            </constraints>
-            <control type="slider" format="integer">
-                <popup>false</popup>
-            </control>
-            <dependencies>
-                <dependency type="visible" setting="cache">true</dependency>
-            </dependencies>
-        </setting>
 <!--          Минуты кэша хранения остальных списков-->
         <setting id="cache_time_default" type="integer" label="30218" help="30219">
             <level>1</level>
@@ -319,19 +303,6 @@
                 <minimum>0</minimum>
                 <step>1</step>
                 <maximum>200</maximum>
-            </constraints>
-            <control type="slider" format="integer">
-                <popup>false</popup>
-            </control>
-        </setting>
-<!--          Количество рилизов в YouTube-->
-        <setting id="limits_list_youtube" type="integer" label="30258" help="30259">
-            <level>0</level>
-            <default>200</default>
-            <constraints>
-                <minimum>0</minimum>
-                <step>1</step>
-                <maximum>5000</maximum>
             </constraints>
             <control type="slider" format="integer">
                 <popup>false</popup>
