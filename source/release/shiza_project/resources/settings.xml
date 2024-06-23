@@ -8,6 +8,12 @@
                  label="Активация inputstream.adaptive"
         />
         <setting type="sep"/>
+        <setting type="enum"
+                 id="video_size"
+                 label="Разрешение"
+                 lvalues="0|360|480|720|1080"
+        />
+        <setting type="sep"/>
     </category>
     <category label="Интеграции">
         <setting type="bool" id="united_search" visible="true" default="true"
