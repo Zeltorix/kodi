@@ -162,20 +162,44 @@
       </group>
     </category>
 <!--    Категория меню Воспроизведение-->
-    <category id="inputstream_category" label="30150" help="30151">
+    <category id="video_category" label="30150" help="30151">
+  <!--        Группа для Видео-->
+      <group id="video_group" label="30152">
+      <!--        Выбор разрешения видео-->
+        <setting id="video_resolution" type="integer" label="30153">
+          <level>1</level>
+          <default>0</default>
+          <constraints>
+            <options>
+              <option label="30154">0</option>
+              <option label="30155">360</option>
+              <option label="30156">480</option>
+              <option label="30157">640</option>
+              <option label="30158">720</option>
+              <option label="30159">1080</option>
+              <option label="30160">1440</option>
+              <option label="30161">2160</option>
+            </options>
+          </constraints>
+          <control type="list" format="string">
+              <heading>30162</heading>
+          </control>
+        </setting>
+      </group>
   <!--        Группа для inputstream-->
-      <group id="inputstream_group" label="30152">
+      <group id="inputstream_group" label="30163">
       <!--        Включения выключения всех inputstream-->
-        <setting id="inputstream" type="boolean" label="30153" help="30154">
+        <setting id="inputstream" type="boolean" label="30164" help="30165">
           <level>0</level>
           <default>true</default>
           <control type="toggle"/>
         </setting>
       </group>
   <!--        Группа для inputstream.adaptive-->
-      <group id="inputstream_adaptive_group" label="30155">
+      <group id="inputstream_adaptive_group" label="30166">
+
       <!--        Включения inputstream.adaptive-->
-        <setting id="inputstream_adaptive_bool" type="boolean" label="30156" help="30157">
+        <setting id="inputstream_adaptive_bool" type="boolean" label="30167" help="30168">
           <level>0</level>
           <default>true</default>
           <control type="toggle"/>
@@ -184,7 +208,7 @@
           </dependencies>
         </setting>
       <!--        Выбор разрешения в inputstream.adaptive-->
-        <setting id="inputstream_adaptive_selection_resolution_bool" type="boolean" label="30158" help="30159">
+        <setting id="inputstream_adaptive_selection_resolution_bool" type="boolean" label="30169" help="30170">
           <level>0</level>
           <default>true</default>
           <control type="toggle"/>
@@ -194,15 +218,15 @@
           </dependencies>
         </setting>
       <!--        Выбор типа контента-->
-        <setting id="inputstream_adaptive_selection_resolution" type="integer" label="30160">
+        <setting id="inputstream_adaptive_selection_resolution" type="integer" label="30171">
           <level>1</level>
           <default>3</default>
           <constraints>
             <options>
-              <option label="30161">0</option>
-              <option label="30162">1</option>
-              <option label="30163">2</option>
-              <option label="30164">3</option>
+              <option label="30172">0</option>
+              <option label="30173">1</option>
+              <option label="30174">2</option>
+              <option label="30175">3</option>
             </options>
           </constraints>
           <dependencies>
@@ -211,20 +235,21 @@
             <dependency type="visible" setting="inputstream">true</dependency>
           </dependencies>
           <control type="list" format="string">
-              <heading>30165</heading>
+              <heading>30176</heading>
           </control>
         </setting>
       </group>
   <!--        Группа для inputstream.ffmpegdirect-->
-      <group id="inputstream_ffmpegdirect_group" label="30166">
+      <group id="inputstream_ffmpegdirect_group" label="30177">
       <!--        Включения выключения всех inputstream-->
-        <setting id="inputstream_ffmpegdirect_bool" type="boolean" label="30167" help="30168">
+        <setting id="inputstream_ffmpegdirect_bool" type="boolean" label="30178" help="30179">
           <level>0</level>
           <default>true</default>
           <control type="toggle"/>
           <dependencies>
             <dependency type="visible" setting="inputstream">true</dependency>
-          </dependencies>        </setting>
+          </dependencies>
+        </setting>
       </group>
     </category>
   </section>

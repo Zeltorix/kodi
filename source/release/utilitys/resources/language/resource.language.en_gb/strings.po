@@ -229,78 +229,122 @@ msgstr "Выбор типа контента"
 # Для Воспроизведение 30150 to 30199
 
 msgctxt "#30150"
-msgid "Input Stream"
-msgstr "Input Stream"
+msgid "Видео"
+msgstr "Видео"
 
 msgctxt "#30151"
-msgid "Настройки для inputstream"
-msgstr "Настройки для inputstream"
+msgid "Настройки для Видео и inputstream"
+msgstr "Настройки для Видео и inputstream"
 
 msgctxt "#30152"
+msgid "Выбор разрешения для всех адонов"
+msgstr "Выбор разрешения для всех адонов"
+
+msgctxt "#30153"
+msgid "Выбранное разрешение"
+msgstr "Выбранное разрешение"
+
+msgctxt "#30154"
+msgid "Автоматическое - выбор по размеру текущего окна, а не экрана"
+msgstr "Автоматическое - выбор по размеру текущего окна, а не экрана"
+
+msgctxt "#30155"
+msgid "360p"
+msgstr "360p"
+
+msgctxt "#30156"
+msgid "480p"
+msgstr "480p"
+
+msgctxt "#30157"
+msgid "640p"
+msgstr "640p"
+
+msgctxt "#30158"
+msgid "720p"
+msgstr "720p"
+
+msgctxt "#30159"
+msgid "1080p (1K)"
+msgstr "1080p (1K)"
+
+msgctxt "#30160"
+msgid "1440p (2K)"
+msgstr "1440p (2K)"
+
+msgctxt "#30161"
+msgid "2160p (4K)"
+msgstr "2160p (4K)"
+
+msgctxt "#30162"
+msgid "Выбор разрешения"
+msgstr "Выбор разрешения"
+
+msgctxt "#30163"
 msgid "Активация inputstream"
 msgstr "Активация inputstream"
 
-msgctxt "#30153"
+msgctxt "#30164"
 msgid "Включить все inputstream"
 msgstr "Включение всех inputstream"
 
-msgctxt "#30154"
+msgctxt "#30165"
 msgid "Включается все доступные inputstream"
 msgstr "Включается все доступные inputstream"
 
-msgctxt "#30155"
+msgctxt "#30166"
 msgid "Настройки inputstream.adaptive"
 msgstr "Настройки inputstream.adaptive"
-
-msgctxt "#30156"
-msgid "Включение"
-msgstr "Включение"
-
-msgctxt "#30157"
-msgid "Включение inputstream.adaptive"
-msgstr "Включение inputstream.adaptive"
-
-msgctxt "#30158"
-msgid "Переопределить настройки"
-msgstr "Переопределить настройки"
-
-msgctxt "#30159"
-msgid "Если включено, то для мои плагины не будут зависеть от общих настроек inputstream.adaptive"
-msgstr "Если включено, то для мои плагины не будут зависеть от общих настроек inputstream.adaptive"
-
-msgctxt "#30160"
-msgid "Тип выбора разрешения"
-msgstr "Тип выбора разрешения"
-
-msgctxt "#30161"
-msgid "adaptive (Разрешения под монитор, без возможности выбора, является значением по умолчанию для inputstream.adaptive)"
-msgstr "adaptive (Разрешения под монитор, без возможности выбора, является значением по умолчанию для inputstream.adaptive)"
-
-msgctxt "#30162"
-msgid "fixed-res (Фиксированное разрешение, без возможности выбора)"
-msgstr "fixed-res (Фиксированное разрешение, без возможности выбора)"
-
-msgctxt "#30163"
-msgid "ask-quality (Выбор разрешения перед просмотром, без возможности последующей смены)"
-msgstr "ask-quality (Выбор разрешения перед просмотром, без возможности последующей смены)"
-
-msgctxt "#30164"
-msgid "manual-osd (Выбор разрешения во время просмотра, с возможностью сменны)"
-msgstr "manual-osd (Выбор разрешения во время просмотра, с возможностью сменны)"
-
-msgctxt "#30165"
-msgid "Выбор типов выбора разрешения"
-msgstr "Выбор типов выбора разрешения"
-
-msgctxt "#30166"
-msgid "Настройки inputstream.ffmpegdirect"
-msgstr "Настройки inputstream.ffmpegdirect"
 
 msgctxt "#30167"
 msgid "Включение"
 msgstr "Включение"
 
 msgctxt "#30168"
+msgid "Включение inputstream.adaptive"
+msgstr "Включение inputstream.adaptive"
+
+msgctxt "#30169"
+msgid "Переопределить настройки"
+msgstr "Переопределить настройки"
+
+msgctxt "#30170"
+msgid "Если включено, то мои плагины не будут зависеть от общих настроек inputstream.adaptive"
+msgstr "Если включено, то мои плагины не будут зависеть от общих настроек inputstream.adaptive"
+
+msgctxt "#30171"
+msgid "Тип выбора разрешения"
+msgstr "Тип выбора разрешения"
+
+msgctxt "#30172"
+msgid "adaptive (Разрешения под монитор, без возможности выбора, является значением по умолчанию для inputstream.adaptive)"
+msgstr "adaptive (Разрешения под монитор, без возможности выбора, является значением по умолчанию для inputstream.adaptive)"
+
+msgctxt "#30173"
+msgid "fixed-res (Фиксированное разрешение, настраивается в \"Выбор разрешения для всех адонов\" расположено выше.)"
+msgstr "fixed-res (Фиксированное разрешение, настраивается в \"Выбор разрешения для всех адонов\" расположено выше.)"
+
+msgctxt "#30174"
+msgid "ask-quality (Выбор разрешения перед просмотром, без возможности последующей смены)"
+msgstr "ask-quality (Выбор разрешения перед просмотром, без возможности последующей смены)"
+
+msgctxt "#30175"
+msgid "manual-osd (Выбор разрешения во время просмотра, с возможностью сменны)"
+msgstr "manual-osd (Выбор разрешения во время просмотра, с возможностью сменны)"
+
+msgctxt "#30176"
+msgid "Выбор типов выбора разрешения"
+msgstr "Выбор типов выбора разрешения"
+
+msgctxt "#30177"
+msgid "Настройки inputstream.ffmpegdirect"
+msgstr "Настройки inputstream.ffmpegdirect"
+
+msgctxt "#30178"
+msgid "Включение"
+msgstr "Включение"
+
+msgctxt "#30179"
 msgid "Включение inputstream.ffmpegdirect"
 msgstr "Включение inputstream.ffmpegdirect"
 

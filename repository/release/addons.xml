@@ -40,7 +40,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.anibaza" name="AniBaza (тест)" version="0.0.3" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.anibaza" name="AniBaza (тест)" version="0.0.4" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
         <import addon="script.module.zeltorix.utilitys" version="0.0.220" />
@@ -474,7 +474,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.shiza.project" name="SHIZA Project (тест)" version="0.0.25" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.shiza.project" name="SHIZA Project (тест)" version="0.0.26" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
         <import addon="script.module.zeltorix.utilitys" version="0.0.124" />
@@ -554,7 +554,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="script.module.zeltorix.utilitys" name="Набор инструментов" version="0.0.226" provider-name="ZelToRiX">
+</addon><addon id="script.module.zeltorix.utilitys" name="Набор инструментов" version="0.0.227" provider-name="ZelToRiX">
     <requires>
         <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
         <import addon="script.module.zeltorix.packages" version="0.0.24" />
