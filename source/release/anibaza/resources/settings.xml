@@ -6,9 +6,9 @@
   <section id="plugin.video.zeltorix.anibaza">
 <!--    Категория меню Видео-->
     <category id="video_category" label="30000" help="30001">
-<!--      Пункты настройки inputstream-->
-      <group id="inputstream" label="30002">
-<!--        Настройка inputstream-->
+<!--      Пункты настройки Видео-->
+      <group id="video_label" label="30002">
+<!--        Настройка Видео-->
         <setting id="inputstream_menu" type="action" label="30003" help="30004">
             <level>0</level>
             <data>Addon.OpenSettings(script.module.zeltorix.utilitys)</data>
@@ -17,42 +17,11 @@
             </control>
         </setting>
       </group>
-<!--        Пункт настройки видео-->
-      <group id="video_label" label="30005">
-<!--        Выбор разрешения видео-->
-        <setting id="video_size" type="integer" label="30006" help="30007">
-          <level>0</level>
-          <default>0</default>
-          <constraints>
-            <options>
-              <option label="30008">0</option>
-              <option label="30009">480</option>
-              <option label="30010">720</option>
-              <option label="30011">1080</option>
-            </options>
-          </constraints>
-          <control type="list" format="string">
-              <heading>30012</heading>
-          </control>
-        </setting>
-      </group>
     </category>
 <!--    Категория меню Интеграции-->
     <category id="integration_category" label="30050" help="30051">
 <!--      Пункты настройки United Search-->
       <group id="united_search_label" label="30052">
-        <!--        Установка United Search-->
-<!--        <setting id="united_search_install" type="action" label="30053" help="30054">-->
-<!--            <level>0</level>-->
-<!--            <data>InstallAddon(plugin.video.united.search)</data>-->
-<!--            <control type="button" format="action">-->
-<!--                <close>true</close>-->
-<!--            </control>-->
-<!--&lt;!&ndash;            Не работает нужно уточнить как заставить работать&ndash;&gt;-->
-<!--            <dependencies>-->
-<!--                <dependency type="visible" operator="System.HasAddon(plugin.video.united.search)">false</dependency>-->
-<!--            </dependencies>-->
-<!--        </setting>-->
         <!--        Включение United Search-->
         <setting id="united_search" type="boolean" label="30055" help="30056">
           <level>0</level>
@@ -72,18 +41,6 @@
       </group>
 <!--      Пункты настройки Shikimori-->
       <group id="shikimori_label" label="30057">
-        <!--        Установка Shikimori-->
-<!--        <setting id="shikimori_install" type="action" label="30058" help="30059">-->
-<!--            <level>0</level>-->
-<!--            <data>InstallAddon(plugin.video.zeltorix.shikimori)</data>-->
-<!--            <control type="button" format="action">-->
-<!--                <close>true</close>-->
-<!--            </control>-->
-<!--&lt;!&ndash;            Не работает нужно уточнить как заставить работать&ndash;&gt;-->
-<!--            <dependencies>-->
-<!--                <dependency type="visible" operator="System.HasAddon(plugin.video.zeltorix.shikimori)">false</dependency>-->
-<!--            </dependencies>-->
-<!--        </setting>-->
         <!--        Включение Shikimori-->
         <setting id="shikimori" type="boolean" label="30060" help="30061">
           <level>0</level>

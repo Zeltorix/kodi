@@ -36,48 +36,16 @@ msgid "Настройки для видео"
 msgstr "Настройки для видео"
 
 msgctxt "#30002"
-msgid "Настройки inputstream"
-msgstr "Настройки inputstream"
+msgid "Перейти к настройкам"
+msgstr "Перейти к настройкам"
 
 msgctxt "#30003"
-msgid "Настроить inputstream, используется ffmpegdirect(YouTube), adaptive(AniLibria, RuTube)"
-msgstr "Настроить inputstream, используется ffmpegdirect(YouTube), adaptive(AniLibria, RuTube)"
+msgid "Нажать для перехода"
+msgstr "Нажать для перехода"
 
 msgctxt "#30004"
 msgid "Переход в настройки плагина script.module.zeltorix.utilitys"
 msgstr "Переход в настройки плагина script.module.zeltorix.utilitys"
-
-msgctxt "#30005"
-msgid "Настройки видео для текущего плагина"
-msgstr "Настройки видео для текущего плагина"
-
-msgctxt "#30006"
-msgid "Разрешение видео"
-msgstr "Разрешение видео"
-
-msgctxt "#30007"
-msgid "Выбор разрешения видео, не зависающей от inputstream"
-msgstr "Выбор разрешения видео, не зависающей от inputstream"
-
-msgctxt "#30008"
-msgid "Автоматическое"
-msgstr "Автоматическое"
-
-msgctxt "#30009"
-msgid "SD(480p)"
-msgstr "SD(480p)"
-
-msgctxt "#30010"
-msgid "HD(720p)"
-msgstr "HD(720p)"
-
-msgctxt "#30011"
-msgid "FHD(1080p)"
-msgstr "FHD(1080p)"
-
-msgctxt "#30012"
-msgid "Выбор разрешения видео"
-msgstr "Выбор разрешения видео"
 
 
 # Интеграции 30050 to 3099
