@@ -76,6 +76,7 @@ https://raw.githubusercontent.com/Zeltorix/kodi/main/repository.zeltorix.zip
 - Krasview
 - WorldCamsTV
 - AnimeVost
+- AniBaza
 
 #### Список скриптов:
 

@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
     <category label="Видео">
-        <setting type="bool"
-                 id="inputstream_adaptive"
-                 visible="true"
-                 default="true"
-                 label="Активация inputstream.adaptive"
-        />
-        <setting type="sep"/>
-        <setting type="enum"
-                 id="video_size"
-                 label="Разрешение"
-                 lvalues="0|360|480|720|1080"
-        />
+        <setting label="Нажать для перехода в настройки"
+                 type="action"
+                 action="Addon.OpenSettings(script.module.zeltorix.utilitys)"
+                 option="close"/>
         <setting type="sep"/>
     </category>
     <category label="Интеграции">
