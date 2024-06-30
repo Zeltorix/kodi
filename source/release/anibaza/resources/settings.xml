@@ -7,7 +7,7 @@
 <!--    Категория меню Видео-->
     <category id="video_category" label="30000" help="30001">
 <!--      Пункты настройки Видео-->
-      <group id="video_label" label="30002">
+      <group id="inputstream_o_label" label="30002">
 <!--        Настройка Видео-->
         <setting id="inputstream_menu" type="action" label="30003" help="30004">
             <level>0</level>
@@ -15,6 +15,23 @@
             <control type="button" format="action">
                 <close>true</close>
             </control>
+        </setting>
+      </group>
+      <group id="players_label" label="30005">
+        <setting id="player_target" type="integer" label="30006">
+          <level>0</level>
+          <default>0</default>
+          <constraints>
+            <options>
+              <option label="30007">0</option>
+              <option label="30008">1</option>
+              <option label="30009">2</option>
+              <option label="30010">3</option>
+            </options>
+          </constraints>
+          <control type="list" format="string">
+              <heading>30011</heading>
+          </control>
         </setting>
       </group>
     </category>
@@ -122,7 +139,7 @@
       </group>
     </category>
 <!--    Категория меню Интернет-->
-    <category id="internet" label="30200" help="30201">
+    <category id="internet_category" label="30200" help="30201">
 <!--        Группа общих настроек-->
       <group id="internet_label" label="30202">
         <setting id="internet_general" type="action" label="30203" help="30203">
@@ -239,7 +256,7 @@
       </group>
     </category>
 <!--    Категория меню Вид-->
-    <category id="view" label="30250" help="30251">
+    <category id="view_category" label="30250" help="30251">
 <!--        Группа общих настроек-->
       <group id="view_label" label="30252">
         <setting id="view_general" type="action" label="30253" help="30254">

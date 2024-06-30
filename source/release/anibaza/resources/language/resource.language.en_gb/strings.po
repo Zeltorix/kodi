@@ -44,8 +44,36 @@ msgid "Нажать для перехода"
 msgstr "Нажать для перехода"
 
 msgctxt "#30004"
-msgid "Переход в настройки плагина script.module.zeltorix.utilitys"
-msgstr "Переход в настройки плагина script.module.zeltorix.utilitys"
+msgid "Переход в настройки адона script.module.zeltorix.utilitys. Для Kodik используется inputstream.adaptive, требуется выбрать \"fixed-res\""
+msgstr "Переход в настройки адона script.module.zeltorix.utilitys. Для Kodik используется inputstream.adaptive, требуется выбрать \"fixed-res\""
+
+msgctxt "#30005"
+msgid "Выбор плеера по умолчанию"
+msgstr "Выбор плеера по умолчанию"
+
+msgctxt "#30006"
+msgid "Выбранный плеер"
+msgstr "Выбранный плеер"
+
+msgctxt "#30007"
+msgid "Не выбран"
+msgstr "Не выбран"
+
+msgctxt "#30008"
+msgid "AniBaza"
+msgstr "AniBaza"
+
+msgctxt "#30009"
+msgid "SibNet"
+msgstr "SibNet"
+
+msgctxt "#30010"
+msgid "Kodik"
+msgstr "Kodik"
+
+msgctxt "#30011"
+msgid "Выбор плеера по умолчанию"
+msgstr "Выбор плеера по умолчанию"
 
 
 # Интеграции 30050 to 3099
