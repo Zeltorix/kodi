@@ -81,15 +81,15 @@
     <category id="request" label="30050" help="30051">
       <group id="request_label_timeout" label="30052">
 <!--          Тайминги ожидания-->
-        <setting id="request_timeout" type="number" label="30053" help="30054">
+        <setting id="request_timeout" type="integer" label="30053" help="30054">
             <level>3</level>
-            <default>8.0</default>
+            <default>10</default>
             <constraints>
-                <minimum>2.0</minimum>
-                <step>0.1</step>
-                <maximum>15.0</maximum>
+                <minimum>2</minimum>
+                <step>1</step>
+                <maximum>120</maximum>
             </constraints>
-            <control type="slider" format="number">
+            <control type="slider" format="integer">
                 <popup>false</popup>
             </control>
         </setting>
@@ -98,11 +98,11 @@
       <group id="request_label_number" label="30055">
         <setting id="request_retry" type="integer" label="30056" help="30057">
             <level>3</level>
-            <default>5</default>
+            <default>3</default>
             <constraints>
-                <minimum>1</minimum>
+                <minimum>0</minimum>
                 <step>1</step>
-                <maximum>20</maximum>
+                <maximum>30</maximum>
             </constraints>
             <control type="slider" format="integer">
                 <popup>false</popup>
@@ -111,15 +111,15 @@
       </group>
 <!--          Время перерыва в запросах-->
       <group id="request_label_time_sleep" label="30058">
-        <setting id="request_time_sleep" type="number" label="30059" help="30060">
+        <setting id="request_time_sleep" type="integer" label="30059" help="30060">
             <level>3</level>
             <default>5</default>
             <constraints>
-                <minimum>0.0</minimum>
-                <step>0.1</step>
+                <minimum>0</minimum>
+                <step>1</step>
                 <maximum>120</maximum>
             </constraints>
-            <control type="slider" format="number">
+            <control type="slider" format="integer">
                 <popup>false</popup>
             </control>
         </setting>
