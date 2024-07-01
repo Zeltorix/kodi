@@ -51,9 +51,10 @@
                  action="RunPlugin(plugin://plugin.video.zeltorix.allserial/?router=history_clearing)"
         />
         <setting type="sep"/>
-        <setting type="text"
+        <setting label="Зеркало"
+                 type="text"
                  id="mirror"
-                 visible="false"
+                 visible="true"
                  default=""
         />
         <setting type="sep"/>
