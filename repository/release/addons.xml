@@ -163,7 +163,7 @@
         <debugging>true</debugging>
 
     </extension>
-</addon><addon id="plugin.video.zeltorix.animevost" name="AnimeVost (тест)" version="0.0.9" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.animevost" name="AnimeVost (тест)" version="0.0.10" provider-name="Zeltorix">
     <requires>
         <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
         <import addon="script.module.zeltorix.utilitys" version="0.0.198" />
