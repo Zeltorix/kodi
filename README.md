@@ -1,2 +1,2 @@
 # [For international addons](./README.EN.md)
-# [Для СНГ адонов](./README.RU.md)
+# [Адоны для стран СНГ](./README.RU.md)
