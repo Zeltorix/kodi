@@ -168,7 +168,7 @@
     <category id="internet" label="30200" help="30201">
 <!--        Группа общих настроек-->
       <group id="internet_label" label="30202">
-        <setting id="internet_general" type="action" label="30203" help="30203">
+        <setting id="internet_general" type="action" label="30203" help="30204">
             <level>0</level>
             <data>Addon.OpenSettings(script.module.zeltorix.utilitys)</data>
             <control type="button" format="action">
@@ -177,24 +177,24 @@
         </setting>
       </group>
       <!--        Группа обхода блокировки-->
-      <group id="blocking_group" label="30204">
+      <group id="blocking_group" label="30205">
 <!--      Включение обхода блокировки-->
-        <setting id="blocking_bool" type="boolean" label="30205" help="30206">
+        <setting id="blocking_bool" type="boolean" label="30206" help="30207">
           <level>0</level>
           <default>false</default>
           <control type="toggle"/>
         </setting>
       </group>
 <!--        Группа авторизации-->
-      <group id="auth_group" label="30207">
+      <group id="auth_group" label="30208">
 <!--      Отображение пункта Авторизация-->
-        <setting id="auth_bool" type="boolean" label="30208" help="30209">
+        <setting id="auth_bool" type="boolean" label="30209" help="30210">
           <level>0</level>
           <default>true</default>
           <control type="toggle"/>
         </setting>
 <!--    Удаление авторизации-->
-        <setting id="auth_del" type="action" label="30210" help="30211">
+        <setting id="auth_del" type="action" label="30211" help="30212">
             <level>0</level>
             <data>RunPlugin(plugin://$ID/?router=auth_del)</data>
             <control type="button" format="action">
@@ -206,15 +206,15 @@
         </setting>
       </group>
 <!--        Группа кэша-->
-      <group id="cache_label" label="30212">
+      <group id="cache_label" label="30213">
 <!--      Включение кэша-->
-        <setting id="cache" type="boolean" label="30213" help="30214">
+        <setting id="cache" type="boolean" label="30214" help="30215">
           <level>0</level>
           <default>true</default>
           <control type="toggle"/>
         </setting>
 <!--          Минуты кэша хранения релизов-->
-        <setting id="cache_time_release" type="integer" label="30215" help="30216">
+        <setting id="cache_time_release" type="integer" label="30216" help="30217">
             <level>1</level>
             <default>60</default>
             <constraints>
@@ -230,7 +230,7 @@
             </dependencies>
         </setting>
 <!--          Минуты кэша хранения новых серий-->
-        <setting id="cache_time_new" type="integer" label="30217" help="30218">
+        <setting id="cache_time_new" type="integer" label="30218" help="30219">
             <level>1</level>
             <default>10</default>
             <constraints>
@@ -246,7 +246,7 @@
             </dependencies>
         </setting>
 <!--          Минуты кэша хранения youtube-->
-        <setting id="cache_time_youtube" type="integer" label="30219" help="30220">
+        <setting id="cache_time_youtube" type="integer" label="30220" help="30221">
             <level>1</level>
             <default>60</default>
             <constraints>
@@ -262,7 +262,7 @@
             </dependencies>
         </setting>
 <!--          Минуты кэша хранения остальных списков-->
-        <setting id="cache_time_default" type="integer" label="30221" help="30222">
+        <setting id="cache_time_default" type="integer" label="30222" help="30223">
             <level>1</level>
             <default>60</default>
             <constraints>
@@ -278,7 +278,7 @@
             </dependencies>
         </setting>
 <!--          Минуты кэша хранения Все аниме-->
-        <setting id="cache_time_all" type="integer" label="30223" help="30224">
+        <setting id="cache_time_all" type="integer" label="30224" help="30225">
             <level>1</level>
             <default>1440</default>
             <constraints>
@@ -294,7 +294,7 @@
             </dependencies>
         </setting>
 <!--          Очистка кэша-->
-        <setting id="cache_clearing" type="action" label="30225" help="30226">
+        <setting id="cache_clearing" type="action" label="30226" help="30227">
             <level>0</level>
             <data>RunPlugin(plugin://$ID/?router=cache_clearing)</data>
             <control type="button" format="action">
