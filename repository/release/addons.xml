@@ -37,7 +37,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.anibaza" name="AniBaza (тест)" version="0.0.8" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.anibaza" name="AniBaza (тест)" version="0.0.9" provider-name="Zeltorix">
     <requires>
         <import addon="script.module.zeltorix.utility" version="0.0.220" />
     </requires>
