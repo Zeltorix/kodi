@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.zeltorix.allserial" name="Allserial (тест)" version="0.0.52" provider-name="Zeltorix">
+<addons><addon id="plugin.video.zeltorix.allserial" name="Allserial (тест)" version="0.0.53" provider-name="Zeltorix">
     <requires>
         <import addon="script.module.zeltorix.utility" version="0.0.76" />
     </requires>
@@ -108,7 +108,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.animeru" name="Animeru" version="0.0.48" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.animeru" name="Animeru" version="0.0.49" provider-name="Zeltorix">
 
     <requires>
         <import addon="script.module.zeltorix.utility" version="0.0.149" />
@@ -157,7 +157,7 @@
         <debugging>true</debugging>
 
     </extension>
-</addon><addon id="plugin.video.zeltorix.animevost" name="AnimeVost (тест)" version="0.0.13" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.animevost" name="AnimeVost (тест)" version="0.0.14" provider-name="Zeltorix">
     <requires>
         <import addon="script.module.zeltorix.utility" version="0.0.198" />
     </requires>
@@ -196,7 +196,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.krasview" name="Krasview (Тест)" version="0.0.33" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.krasview" name="Krasview (Тест)" version="0.0.34" provider-name="Zeltorix">
     <requires>
         <import addon="script.module.zeltorix.utility" version="0.0.124" />
     </requires>
@@ -270,33 +270,6 @@
         <license>GPL-3-or-later</license>
         <forum>https://kodi.moy.su/forum/2-16-1</forum>
         <source>https://github.com/Zeltorix/kodi/raw/main/source/release/ok_video</source>
-        <assets>
-            <icon>icon.jpg</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <debugging>true</debugging>
-    </extension>
-</addon><addon id="script.module.zeltorix.packages" name="Набор пакетов и модулей" version="0.0.33" provider-name="ZelToRiX">
-    <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
-        <import addon="inputstream.adaptive" version="0.0.0" />
-        <import addon="inputstream.ffmpegdirect" version="0.0.0" optional="true" />
-        <import addon="script.module.requests" version="0.0.0" />
-        <import addon="script.module.beautifulsoup4" version="0.0.0" />
-    </requires>
-
-
-
-    <extension point="xbmc.python.module" library="resources/lib" />
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en_GB">Дополнительные пакеты и модули</summary>
-        <description lang="en_GB">Дополнительные пакеты и модули для моих плагинов</description>
-        <language>ru en</language>
-        <license>GPL-3-or-later</license>
-        <forum>http://xbmc.ru/forum/showthread.php?t=26918</forum>
-        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/packages</source>
         <assets>
             <icon>icon.jpg</icon>
             <fanart>fanart.jpg</fanart>
@@ -824,32 +797,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="script.module.zeltorix.utilitys" name="Набор инструментов" version="0.0.252" provider-name="ZelToRiX">
-    <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
-        <import addon="script.module.zeltorix.packages" version="0.0.24" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.python.module" library="resources/lib" />
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en_GB">Дополнительные пакеты</summary>
-        <description lang="en_GB">Дополнения для моих плагинов
-        </description>
-        <language>ru en</language>
-        <license>GPL-3-or-later</license>
-        <forum>http://xbmc.ru/forum/showthread.php?t=26918</forum>
-        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/utilitys</source>
-        <assets>
-            <icon>icon.jpg</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <debugging>true</debugging>
-    </extension>
-</addon><addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест)" version="0.0.59" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест)" version="0.0.60" provider-name="Zeltorix">
     <requires>
         <import addon="script.module.requests" version="0.0.0" />
         <import addon="script.module.zeltorix.utility" version="0.0.1" />
