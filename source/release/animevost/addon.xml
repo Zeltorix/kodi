@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="plugin.video.zeltorix.animevost" name="AnimeVost (тест)" version="0.0.12" provider-name="Zeltorix">
+<addon id="plugin.video.zeltorix.animevost" name="AnimeVost (тест)" version="0.0.13" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.198" />
+        <import addon="script.module.zeltorix.utility" version="0.0.198" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>

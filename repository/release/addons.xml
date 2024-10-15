@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.zeltorix.allserial" name="Allserial (тест)" version="0.0.51" provider-name="Zeltorix">
+<addons><addon id="plugin.video.zeltorix.allserial" name="Allserial (тест)" version="0.0.52" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
-        <import addon="inputstream.adaptive" version="0.0.0" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.76" />
+        <import addon="script.module.zeltorix.utility" version="0.0.76" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -28,10 +26,9 @@
                 [fix]
         </news>
         <platform>all</platform>
-        <language>ru en
-        </language> 
+        <language>ru en</language>
         <license>GPL-3-or-later</license>
-        <forum>http://xbmc.ru/forum/showthread.php?t=26925</forum>
+        <forum>https://kodi.moy.su/forum/2-12-1</forum>
         <source>https://github.com/Zeltorix/kodi/raw/main/source/release/allserial</source>
         <assets>
             <icon>icon.jpg</icon>
@@ -40,10 +37,9 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.anibaza" name="AniBaza (тест)" version="0.0.7" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.anibaza" name="AniBaza (тест)" version="0.0.8" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.220" />
+        <import addon="script.module.zeltorix.utility" version="0.0.220" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -68,7 +64,7 @@
         <language>ru en
         </language> 
         <license>GPL-3-or-later</license>
-        <forum>https://kodi.moy.su/forum/</forum>
+        <forum>https://kodi.moy.su/forum/2-50-1</forum>
         <source>https://github.com/Zeltorix/kodi/raw/main/source/release/anibaza</source>
         <assets>
             <icon>icon.jpg</icon>
@@ -77,11 +73,10 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.anilibria" version="0.1.20" name="AniLibria" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.anilibria" version="0.1.21" name="AniLibria" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
         <import addon="script.module.requests" version="2.25.1" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.1" />
+        <import addon="script.module.zeltorix.utility" version="0.0.1" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -104,7 +99,7 @@
         <language>ru en
         </language> 
         <license>GPL-3-or-later</license>
-        <forum>http://xbmc.ru/forum/showthread.php?t=26919</forum>
+        <forum>https://kodi.moy.su/forum/2-13-1</forum>
         <source>https://github.com/Zeltorix/kodi/source/release/anilibria</source>
         <assets>
             <icon>icon.jpg</icon>
@@ -113,11 +108,10 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.animeru" name="Animeru" version="0.0.47" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.animeru" name="Animeru" version="0.0.48" provider-name="Zeltorix">
 
     <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.149" />
+        <import addon="script.module.zeltorix.utility" version="0.0.149" />
     </requires>
 
     <extension point="xbmc.python.pluginsource" library="addon.py">
@@ -150,8 +144,8 @@
         </news>
 
         <license>GPL-3-or-later</license>
-        <forum />
-        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/Animeru</source>
+        <forum>https://kodi.moy.su/forum/2-14-1</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/animeru</source>
 
         <assets>
             <icon>icon.jpg</icon>
@@ -163,10 +157,9 @@
         <debugging>true</debugging>
 
     </extension>
-</addon><addon id="plugin.video.zeltorix.animevost" name="AnimeVost (тест)" version="0.0.12" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.animevost" name="AnimeVost (тест)" version="0.0.13" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.198" />
+        <import addon="script.module.zeltorix.utility" version="0.0.198" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -203,11 +196,9 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.krasview" name="Krasview (Тест)" version="0.0.32" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.krasview" name="Krasview (Тест)" version="0.0.33" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
-        <import addon="inputstream.adaptive" version="0.0.0" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.124" />
+        <import addon="script.module.zeltorix.utility" version="0.0.124" />
     </requires>
 
     <extension point="xbmc.python.pluginsource" library="addon.py">
@@ -237,7 +228,7 @@
         <language>ru en
         </language> 
         <license>GPL-3-or-later</license>
-        <forum>http://xbmc.ru/forum/showthread.php?t=</forum>
+        <forum>https://kodi.moy.su/forum/2-15-1</forum>
         <source>https://github.com/Zeltorix/kodi/raw/main/source/release/krasview</source>
         <assets>
             <icon>icon.jpg</icon>
@@ -246,12 +237,10 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.ok.video" name="OK Видео (тест)" version="0.0.25" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.ok.video" name="OK Видео (тест)" version="0.0.26" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
         <import addon="script.module.requests" version="2.25.1" />
-        <import addon="script.module.beautifulsoup4" version="4.8.2" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.156" />
+        <import addon="script.module.zeltorix.utility" version="0.0.156" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -279,7 +268,7 @@
         <language>ru en
         </language> 
         <license>GPL-3-or-later</license>
-        <forum>http://xbmc.ru/forum/showthread.php?t=</forum>
+        <forum>https://kodi.moy.su/forum/2-16-1</forum>
         <source>https://github.com/Zeltorix/kodi/raw/main/source/release/ok_video</source>
         <assets>
             <icon>icon.jpg</icon>
@@ -315,10 +304,9 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.ren.tv" name="РЕН ТВ" version="0.3.33" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.ren.tv" name="РЕН ТВ" version="0.3.34" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.145" />
+        <import addon="script.module.zeltorix.utility" version="0.0.145" />
     </requires>
     
     <extension point="xbmc.python.pluginsource" library="addon.py">
@@ -347,7 +335,7 @@
         <platform>all</platform>
         <language>ru</language>
         <license>GPL-3-or-later</license>
-        <forum>http://xbmc.ru/forum/showthread.php?t=26920</forum>
+        <forum>https://kodi.moy.su/forum/2-17-1</forum>
         <source>https://github.com/Zeltorix/kodi/raw/main/release/ren_tv</source>
         <assets>
             <icon>icon.jpg</icon>
@@ -566,11 +554,10 @@
       <icon>icon.jpg</icon>
     </assets>
   </extension>
-</addon><addon id="plugin.video.zeltorix.rutube" name="RUTUBE (тест)" version="0.0.54" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.rutube" name="RUTUBE (тест)" version="0.0.55" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
         <import addon="script.module.requests" version="2.25.1" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.1" />
+        <import addon="script.module.zeltorix.utility" version="0.0.1" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -598,7 +585,7 @@
         <language>ru en
         </language> 
         <license>GPL-3-or-later</license>
-        <forum>http://xbmc.ru/forum/showthread.php?t=</forum>
+        <forum>https://kodi.moy.su/forum/2-6-1</forum>
         <source>https://github.com/Zeltorix/kodi/raw/main/source/release/rutube</source>
         <assets>
             <icon>icon.jpg</icon>
@@ -607,10 +594,9 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.shiza.project" name="SHIZA Project (тест)" version="0.0.27" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.shiza.project" name="SHIZA Project (тест)" version="0.0.28" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.124" />
+        <import addon="script.module.zeltorix.utility" version="0.0.124" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -638,7 +624,7 @@
         <language>ru en
         </language> 
         <license>GPL-3-or-later</license>
-        <forum>http://xbmc.ru/forum/showthread.php?t=</forum>
+        <forum>https://kodi.moy.su/forum/2-18-1</forum>
         <source>https://github.com/Zeltorix/kodi/raw/main/source/release/shiza_project</source>
         <assets>
             <icon>icon.jpg</icon>
@@ -647,10 +633,9 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.softboxtv" name="Softboxtv (тест)" version="0.0.27" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.softboxtv" name="Softboxtv (тест)" version="0.0.28" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.76" />
+        <import addon="script.module.zeltorix.utility" version="0.0.76" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -678,7 +663,7 @@
         <language>ru en
         </language> 
         <license>GPL-3-or-later</license>
-        <forum>http://xbmc.ru/forum/showthread.php?t=26925</forum>
+        <forum>https://kodi.moy.su/forum/2-19-1</forum>
         <source>https://github.com/Zeltorix/kodi/raw/main/source/release/softboxtv</source>
         <assets>
             <icon>icon.jpg</icon>
@@ -712,11 +697,10 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест)" version="0.0.58" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест)" version="0.0.59" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
         <import addon="script.module.requests" version="0.0.0" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.1" />
+        <import addon="script.module.zeltorix.utility" version="0.0.1" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -744,7 +728,7 @@
         <language>ru en
         </language> 
         <license>GPL-3-or-later</license>
-        <forum>http://xbmc.ru/forum/showthread.php?t=26925</forum>
+        <forum>https://kodi.moy.su/forum/2-21-1</forum>
         <source>https://github.com/Zeltorix/kodi/raw/main/source/release/vk_video</source>
         <assets>
             <icon>icon.jpg</icon>
@@ -753,11 +737,9 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.worldcams.tv" name="World Cams (тест)" version="0.0.26" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.worldcams.tv" name="World Cams (тест)" version="0.0.27" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
-        <import addon="inputstream.adaptive" version="0.0.0" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.103" />
+        <import addon="script.module.zeltorix.utility" version="0.0.103" />
     </requires>
     
     <extension point="xbmc.python.pluginsource" library="addon.py">
@@ -786,7 +768,7 @@
         <platform>all</platform>
         <language>ru</language>
         <license>GPL-3-or-later</license>
-        <forum>http://xbmc.ru/forum/showthread.php?t=26920</forum>
+        <forum>https://kodi.moy.su/forum/2-20-1</forum>
         <source>https://github.com/Zeltorix/kodi/raw/main/release/worldcams_tv</source>
         <assets>
             <icon>icon.jpg</icon>

@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="plugin.video.zeltorix.anibaza" name="AniBaza (тест)" version="0.0.7" provider-name="Zeltorix">
+<addon id="plugin.video.zeltorix.anibaza" name="AniBaza (тест)" version="0.0.8" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.220" />
+        <import addon="script.module.zeltorix.utility" version="0.0.220" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -27,7 +26,7 @@
         <language>ru en
         </language> 
         <license>GPL-3-or-later</license>
-        <forum>https://kodi.moy.su/forum/</forum>
+        <forum>https://kodi.moy.su/forum/2-50-1</forum>
         <source>https://github.com/Zeltorix/kodi/raw/main/source/release/anibaza</source>
         <assets>
             <icon>icon.jpg</icon>

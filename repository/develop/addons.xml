@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.zeltorix.anilibria" name="AniLibria (тест)" version="0.1.34" provider-name="Zeltorix">
+<addons><addon id="plugin.video.zeltorix.anilibria" name="AniLibria (тест)" version="0.1.35" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.205" />
+        <import addon="script.module.zeltorix.utility" version="0.0.205" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -47,14 +46,9 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.kinobase" name="Kinobase (Тест)" version="0.0.5" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.kinobase" name="Kinobase (Тест)" version="0.0.6" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" version="3.0.0" />
-        <import addon="xbmc.gui" version="5.15.0" />
-        <import addon="xbmc.addon" version="19.1.0" />
-        <import addon="inputstream.adaptive" version="19.0.0" />
-        <import addon="script.module.beautifulsoup4" version="0.0.1" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.124" />
+        <import addon="script.module.zeltorix.utility" version="0.0.124" />
     </requires>
 
     <extension point="xbmc.python.pluginsource" library="addon.py">
@@ -84,7 +78,7 @@
         <language>ru en
         </language> 
         <license>GPL-3-or-later</license>
-        <forum />
+        <forum>https://kodi.moy.su/forum/</forum>
         <source>https://github.com/Zeltorix/kodi/raw/main/source/release/kinobase</source>
         <assets>
             <icon>icon.jpg</icon>
@@ -93,12 +87,9 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.movix" name="Movix (тест)" version="0.0.2" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.movix" name="Movix (тест)" version="0.0.3" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" version="3.0.0" />
-        <import addon="xbmc.gui" version="5.15.0" />
-        <import addon="xbmc.addon" version="19.1.0" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.124" />
+        <import addon="script.module.zeltorix.utility" version="0.0.124" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -126,7 +117,7 @@
         <language>ru en
         </language> 
         <license>GPL-3-or-later</license>
-        <forum>http://xbmc.ru/forum/showthread.php?t=</forum>
+        <forum>https://kodi.moy.su/forum/</forum>
         <source>https://github.com/Zeltorix/kodi/raw/main/source/release/movix</source>
         <assets>
             <icon>icon.jpg</icon>
@@ -135,125 +126,9 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="repository.zeltorix.develop" name="ZelToRiX DEV Add-on repository" version="0.1.2" provider-name="ZelToRiX">
-  <extension point="xbmc.addon.repository" name="ZelToRiX DEV Add-on repository">
-
-    <dir minversion="19.0.0">
-      <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/develop/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/develop/addons.xml.md5</checksum>
-      <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/develop/</datadir>
-    </dir>
-    <dir minversion="19.0.0" maxversion="19.99.0">
-      <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/develop/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/develop/addons.xml.md5</checksum>
-      <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/develop/</datadir>
-    </dir>
-    <dir minversion="20.0.0" maxversion="20.99.0">
-      <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/develop/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/develop/addons.xml.md5</checksum>
-      <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/develop/</datadir>
-    </dir>
-    <dir minversion="21.0.0" maxversion="21.99.0">
-      <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/develop/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/develop/addons.xml.md5</checksum>
-      <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/develop/</datadir>
-    </dir>
-    <dir minversion="22.0.0" maxversion="22.99.0">
-      <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/develop/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/develop/addons.xml.md5</checksum>
-      <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/develop/</datadir>
-    </dir>
-    <dir minversion="23.0.0" maxversion="23.99.0">
-      <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/develop/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/develop/addons.xml.md5</checksum>
-      <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/develop/</datadir>
-    </dir>
-
-    <dir minversion="19.0.0">
-        <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/packages/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/packages/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/packages/</datadir>
-    </dir>
-    <dir minversion="19.0.0" maxversion="19.99.0">
-        <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/packages/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/packages/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/packages/</datadir>
-    </dir>
-    <dir minversion="20.0.0" maxversion="20.99.0">
-        <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/packages/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/packages/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/packages/</datadir>
-    </dir>
-    <dir minversion="21.0.0" maxversion="21.99.0">
-        <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/packages/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/packages/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/packages/</datadir>
-    </dir>
-    <dir minversion="22.0.0" maxversion="22.99.0">
-        <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/packages/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/packages/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/packages/</datadir>
-    </dir>
-    <dir minversion="23.0.0" maxversion="23.99.0">
-        <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/packages/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/packages/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/packages/</datadir>
-    </dir>
-
-    <dir minversion="19.0.0">
-        <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/utility/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/utility/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/utility/</datadir>
-    </dir>
-    <dir minversion="19.0.0" maxversion="19.99.0">
-        <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/utility/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/utility/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/utility/</datadir>
-    </dir>
-    <dir minversion="20.0.0" maxversion="20.99.0">
-        <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/utility/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/utility/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/utility/</datadir>
-    </dir>
-    <dir minversion="21.0.0" maxversion="21.99.0">
-        <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/utility/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/utility/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/utility/</datadir>
-    </dir>
-    <dir minversion="22.0.0" maxversion="22.99.0">
-        <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/utility/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/utility/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/utility/</datadir>
-    </dir>
-    <dir minversion="23.0.0" maxversion="23.99.0">
-        <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/utility/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/utility/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/utility/</datadir>
-    </dir>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Install Add-ons from ZelToRiX DEV repository</summary>
-    <summary lang="ru">Установить дополнения от ZelToRiX DEV</summary>
-    <description lang="en">Download and install add-ons from the ZelToRiX add-on repository</description>
-    <description lang="ru">Репозитория с попытками создать плагины</description>
-    <source>https://github.com/Zeltorix/kodi/raw/main/source/develop/repository_develop</source>
-    <platform>all</platform>
-    <news>
-      v0.1.0 (2024-10-08)
-      [new] Перераспределение адонов
-      ...
-      v0.0.0 (2023-01-27)
-      [new] Создание репозитории для Kodi 19
-    </news>
-    <platform>all</platform>
-    <assets>
-      <icon>icon.jpg</icon>
-    </assets>
-  </extension>
-</addon><addon id="plugin.video.zeltorix.softboxtv" name="Softboxtv (тест)" version="0.0.33" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.softboxtv" name="Softboxtv (тест)" version="0.0.34" provider-name="Zeltorix">
     <requires>
-        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
-        <import addon="script.module.zeltorix.utilitys" version="0.0.248" />
+        <import addon="script.module.zeltorix.utility" version="0.0.248" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -281,7 +156,7 @@
         <language>ru en
         </language> 
         <license>GPL-3-or-later</license>
-        <forum>http://xbmc.ru/forum/showthread.php?t=26925</forum>
+        <forum>https://kodi.moy.su/forum/2-19-1</forum>
         <source>https://github.com/Zeltorix/kodi/raw/main/source/release/softboxtv</source>
         <assets>
             <icon>icon.jpg</icon>
