@@ -21,7 +21,7 @@ https://raw.githubusercontent.com/Zeltorix/kodi/main/repository.zeltorix.zip
 
 #### Список скриптов:
 
-- utilitys
+- utility
 - packages
 
 #### Если постоянно появляется оповещение о inputstream-adaptive на linux, требуется установить в ручную через терминал пакет <u>kodi-inputstream-adaptive</u>
@@ -29,7 +29,6 @@ https://raw.githubusercontent.com/Zeltorix/kodi/main/repository.zeltorix.zip
 Пример для дистрибутива linux Debian и его ответвлений:
 
 ```
-
 sudo apt update
 sudo apt install kodi-inputstream-adaptive
 ```

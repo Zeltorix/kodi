@@ -1,7 +1,7 @@
 # Repositories for KODI v.19 and higher
 #### Permanent link to the main (release) repository:
 ##### Repositories are under development
-~~https://raw.githubusercontent.com/Zeltorix/kodi/main/repository.zeltorix.int.zip~~
+https://raw.githubusercontent.com/Zeltorix/kodi/main/repository.zeltorix.int.zip
 
 #### List of international addons:
 ##### Add-ons are under development
@@ -11,7 +11,7 @@
 - ~~WorldCamsTV~~
 
 #### List of scripts:
-- utilitys
+- utility
 - packages
 
 #### <u>kodi-inputstream-adaptive</u>
