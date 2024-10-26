@@ -44,8 +44,8 @@ msgid "Нажать для перехода"
 msgstr "Нажать для перехода"
 
 msgctxt "#30004"
-msgid "Переход в настройки плагина script.module.zeltorix.utilitys"
-msgstr "Переход в настройки плагина script.module.zeltorix.utilitys"
+msgid "Переход в настройки плагина script.module.zeltorix.utility"
+msgstr "Переход в настройки плагина script.module.zeltorix.utility"
 
 
 # Интеграции 30050 to 3099
@@ -288,8 +288,8 @@ msgid "Переход к общим настройкам отображения"
 msgstr "Переход к общим настройкам отображения"
 
 msgctxt "#30254"
-msgid "Переход в настройки плагина script.module.zeltorix.utilitys"
-msgstr "Переход в настройки плагина script.module.zeltorix.utilitys"
+msgid "Переход в настройки плагина script.module.zeltorix.utility"
+msgstr "Переход в настройки плагина script.module.zeltorix.utility"
 
 msgctxt "#30255"
 msgid "Размеры списков"

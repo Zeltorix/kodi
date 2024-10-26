@@ -44,8 +44,8 @@ msgid "Нажать для перехода"
 msgstr "Нажать для перехода"
 
 msgctxt "#30004"
-msgid "Переход в настройки адона script.module.zeltorix.utilitys. Для Kodik используется inputstream.adaptive, требуется выбрать \"fixed-res\""
-msgstr "Переход в настройки адона script.module.zeltorix.utilitys. Для Kodik используется inputstream.adaptive, требуется выбрать \"fixed-res\""
+msgid "Переход в настройки адона script.module.zeltorix.utility. Для Kodik используется inputstream.adaptive, требуется выбрать \"fixed-res\""
+msgstr "Переход в настройки адона script.module.zeltorix.utility. Для Kodik используется inputstream.adaptive, требуется выбрать \"fixed-res\""
 
 msgctxt "#30005"
 msgid "Выбор плеера по умолчанию"
@@ -319,8 +319,8 @@ msgid "Переход к общим настройкам отображения"
 msgstr "Переход к общим настройкам отображения"
 
 msgctxt "#30254"
-msgid "Переход в настройки плагина script.module.zeltorix.utilitys"
-msgstr "Переход в настройки плагина script.module.zeltorix.utilitys"
+msgid "Переход в настройки плагина script.module.zeltorix.utility"
+msgstr "Переход в настройки плагина script.module.zeltorix.utility"
 
 msgctxt "#30255"
 msgid "Размеры списков"

@@ -1,5 +1,5 @@
 # Kodi Media Center language file
-# Addon Name: Utilitys
+# Addon Name: Utility
 # Addon id: script.module.zeltorix.animevost
 # Addon Provider: Zeltorix
 msgid ""
@@ -44,8 +44,8 @@ msgid "Настроить inputstream, используется ffmpegdirect"
 msgstr "Настроить inputstream, используется ffmpegdirect"
 
 msgctxt "#30004"
-msgid "Переход в настройки плагина script.module.zeltorix.utilitys"
-msgstr "Переход в настройки плагина script.module.zeltorix.utilitys"
+msgid "Переход в настройки плагина script.module.zeltorix.utility"
+msgstr "Переход в настройки плагина script.module.zeltorix.utility"
 
 msgctxt "#30005"
 msgid "Настройки видео для текущего плагина"

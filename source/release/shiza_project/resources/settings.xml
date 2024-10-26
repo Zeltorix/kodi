@@ -3,7 +3,7 @@
     <category label="Видео">
         <setting label="Нажать для перехода в настройки"
                  type="action"
-                 action="Addon.OpenSettings(script.module.zeltorix.utilitys)"
+                 action="Addon.OpenSettings(script.module.zeltorix.utility)"
                  option="close"/>
         <setting type="sep"/>
     </category>

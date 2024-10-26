@@ -3,7 +3,7 @@
 <!--Всегда должна быть версия 1 для работы настроек секции-->
 <settings version="1">
 <!--  Здесь должно быть ID плагина, хотя работает с любым значением-->
-  <section id="script.module.zeltorix.utilitys">
+  <section id="script.module.zeltorix.utility">
 <!--    Категория меню Обход блокировки-->
     <category id="anti_block" label="30000" help="30001">
 <!--      Пункты настройки прокси-->
@@ -52,7 +52,7 @@
         </setting>
         <setting id="proxy_provider_reload" type="action" label="30016" help="30017">
 	        <level>0</level>
-	        <data>RunPlugin(plugin://script.module.zeltorix.utilitys/?router=proxy_provider_reload)</data>
+	        <data>RunPlugin(plugin://script.module.zeltorix.utility/?router=proxy_provider_reload)</data>
             <dependencies>
                 <dependency type="visible">
                     <or>

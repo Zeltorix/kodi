@@ -1,6 +1,6 @@
 # Kodi Media Center language file
-# Addon Name: Utilitys
-# Addon id: script.module.zeltorix.utilitys
+# Addon Name: Utility
+# Addon id: script.module.zeltorix.utility
 # Addon Provider: Zeltorix
 msgid ""
 msgstr ""

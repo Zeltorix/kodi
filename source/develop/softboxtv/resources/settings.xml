@@ -11,7 +11,7 @@
 <!--        Настройка Видео-->
         <setting id="inputstream_menu" type="action" label="30003" help="30004">
             <level>0</level>
-            <data>Addon.OpenSettings(script.module.zeltorix.utilitys)</data>
+            <data>Addon.OpenSettings(script.module.zeltorix.utility)</data>
             <control type="button" format="action">
                 <close>true</close>
             </control>
@@ -127,7 +127,7 @@
       <group id="internet_label" label="30202">
         <setting id="internet_general" type="action" label="30203" help="30203">
             <level>0</level>
-            <data>Addon.OpenSettings(script.module.zeltorix.utilitys)</data>
+            <data>Addon.OpenSettings(script.module.zeltorix.utility)</data>
             <control type="button" format="action">
                 <close>true</close>
             </control>
@@ -196,7 +196,7 @@
       <group id="view_label" label="30252">
         <setting id="view_general" type="action" label="30253" help="30254">
             <level>0</level>
-            <data>Addon.OpenSettings(script.module.zeltorix.utilitys)</data>
+            <data>Addon.OpenSettings(script.module.zeltorix.utility)</data>
             <control type="button" format="action">
                 <close>true</close>
             </control>
