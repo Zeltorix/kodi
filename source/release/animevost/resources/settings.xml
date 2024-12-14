@@ -161,16 +161,16 @@
         </setting>
       </group>
     </category>
-      <setting id="url" type="string" label="" help="">
-        <level>4</level>
-        <default/>
-        <constraints>
-            <allowempty>true</allowempty>
-        </constraints>
-        <control type="edit" format="string">
-            <heading> </heading>
-        </control>
-      </setting>
+<!--      <setting id="url" type="string" label="" help="">-->
+<!--        <level>4</level>-->
+<!--        <default/>-->
+<!--        <constraints>-->
+<!--            <allowempty>true</allowempty>-->
+<!--        </constraints>-->
+<!--        <control type="edit" format="string">-->
+<!--            <heading> </heading>-->
+<!--        </control>-->
+<!--      </setting>-->
   </section>
 </settings>
 
