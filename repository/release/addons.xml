@@ -561,10 +561,9 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест)" version="0.0.60" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест)" version="0.0.67" provider-name="Zeltorix">
     <requires>
-        <import addon="script.module.requests" version="0.0.0" />
-        <import addon="script.module.zeltorix.utility" version="0.0.1" />
+        <import addon="script.module.zeltorix.utility" version="0.0.258" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>

@@ -10,8 +10,6 @@
 
 import sys
 from resources.lib.router import router
-from resources.lib.view import View
 
 if __name__ == '__main__':
-    View().check_modules()
     router(sys.argv[2][1:])
