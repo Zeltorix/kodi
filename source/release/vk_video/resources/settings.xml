@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
-    <category label="Видео">
-        <setting type="text"
-                 visible="true"
-                 label="Дополнение для адаптации видео под разрешения экрана и скорости интернета. Также добавляет меню выбора разрешения"/>
-        <setting type="bool"
-                 id="inputstream_adaptive"
-                 visible="true"
-                 default="true"
-                 label="Активация inputstream.adaptive"/>
-        <setting type="sep"/>
-    </category>
     <category label="Интеграции">
         <setting type="bool"
                  id="united_search"
