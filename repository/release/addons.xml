@@ -561,7 +561,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест)" version="0.0.76" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест)" version="0.0.77" provider-name="Zeltorix">
     <requires>
         <import addon="script.module.zeltorix.utility" version="0.0.258" />
     </requires>
