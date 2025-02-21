@@ -37,7 +37,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.anibaza" name="AniBaza (тест)" version="0.0.10" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.anibaza" name="AniBaza (не работает, нет открытого источника)" version="0.0.11" provider-name="Zeltorix">
     <requires>
         <import addon="script.module.zeltorix.utility" version="0.0.220" />
     </requires>
@@ -120,7 +120,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.animeru" name="Animeru" version="0.0.50" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.animeru" name="Animeru (не работает, ддос защита)" version="0.0.51" provider-name="Zeltorix">
 
     <requires>
         <import addon="script.module.zeltorix.utility" version="0.0.149" />

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="plugin.video.zeltorix.animeru" name="Animeru" version="0.0.50" provider-name="Zeltorix">
+<addon id="plugin.video.zeltorix.animeru" name="Animeru (не работает, ддос защита)" version="0.0.51" provider-name="Zeltorix">
 
     <requires>
         <import addon="script.module.zeltorix.utility" version="0.0.149" />
