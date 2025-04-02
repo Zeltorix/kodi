@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="plugin.video.zeltorix.softboxtv" name="Softboxtv (тест)" version="0.0.29" provider-name="Zeltorix">
+<addon id="plugin.video.zeltorix.softboxtv" name="Softboxtv (тест нового сайта)" version="0.0.30" provider-name="Zeltorix">
     <requires>
         <import addon="script.module.zeltorix.utility" version="0.0.76" />
     </requires>
