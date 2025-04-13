@@ -1,6 +1,6 @@
 # Kodi Media Center language file
-# Addon Name: AniLibria
-# Addon id: plugin.video.zeltorix.anilibria
+# Addon Name: Yandex Dzen
+# Addon id: plugin.video.zeltorix.dzen
 # Addon Provider: Zeltorix
 msgid ""
 msgstr ""
