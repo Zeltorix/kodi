@@ -495,7 +495,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.shiza.project" name="SHIZA Project (тест)" version="0.0.30" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.shiza.project" name="SHIZA Project (тест)" version="0.0.31" provider-name="Zeltorix">
     <requires>
         <import addon="script.module.zeltorix.utility" version="0.0.124" />
     </requires>
