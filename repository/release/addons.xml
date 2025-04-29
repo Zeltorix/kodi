@@ -73,7 +73,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.anilibria" name="AniLibria (тест авторизации)" version="1.0.3" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.anilibria" name="AniLibria (тест авторизации)" version="1.0.4" provider-name="Zeltorix">
     <requires>
         <import addon="script.module.zeltorix.utility" version="0.0.205" />
     </requires>
