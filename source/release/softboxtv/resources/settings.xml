@@ -189,6 +189,15 @@
             </dependencies>
         </setting>
       </group>
+<!--        Группа обхода блокировки-->
+      <group id="blocking_group" label="30216">
+<!--      Включение обхода блокировки-->
+        <setting id="blocking_bool" type="boolean" label="30217" help="30218">
+          <level>0</level>
+          <default>false</default>
+          <control type="toggle"/>
+        </setting>
+      </group>
     </category>
 <!--    Категория меню Вид-->
     <category id="view_category" label="30250" help="30251">
