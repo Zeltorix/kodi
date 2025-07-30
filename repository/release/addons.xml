@@ -245,7 +245,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.krasview" name="Krasview (тест)" version="0.0.36" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.krasview" name="Krasview (тест)" version="0.0.37" provider-name="Zeltorix">
     <requires>
         <import addon="script.module.zeltorix.utility" version="0.0.124" />
     </requires>
