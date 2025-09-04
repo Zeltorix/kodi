@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Без ста грамм не разобраться)-->
+<!--Всегда должна быть версия 1 для работы настроек секции-->
+<settings version="1">
+<!--  Здесь должно быть ID плагина, хотя работает с любым значением-->
+  <section id="plugin.video.zeltorix.animevost">
+<!--    Категория меню Видео-->
+    <category id="video_category" label="30000" help="30001">
+<!--      Пункты настройки inputstream-->
+      <group id="inputstream" label="30002">
+<!--        Настройка inputstream-->
+        <setting id="inputstream_menu" type="action" label="30003" help="30004">
+            <level>0</level>
+            <data>Addon.OpenSettings(script.module.zeltorix.utility)</data>
+            <control type="button" format="action">
+                <close>true</close>
+            </control>
+        </setting>
+      </group>
+<!--        Пункт настройки видео-->
+      <group id="video_label" label="30005">
+<!--        Выбор разрешения видео-->
+        <setting id="video_size" type="integer" label="30006" help="30007">
+          <level>0</level>
+          <default>0</default>
+          <constraints>
+            <options>
+              <option label="30008">0</option>
+              <option label="30009">480</option>
+              <option label="30010">720</option>
+              <option label="30011">1080</option>
+            </options>
+          </constraints>
+          <control type="list" format="string">
+              <heading>30012</heading>
+          </control>
+        </setting>
+      </group>
+    </category>
+<!--    Категория меню Интеграции-->
+    <category id="integration_category" label="30050" help="30051">
+<!--      Пункты настройки United Search-->
+      <group id="united_search_label" label="30052">
+        <!--        Установка United Search-->
+        <setting id="united_search_install" type="action" label="30053" help="30054">
+            <level>0</level>
+            <data>InstallAddon(plugin.video.united.search)</data>
+            <control type="button" format="action">
+                <close>true</close>
+            </control>
+<!--            Не работает нужно уточнить как заставить работать-->
+            <dependencies>
+                <dependency type="visible" operator="System.HasAddon(plugin.video.united.search)">true</dependency>
+            </dependencies>
+        </setting>
+        <!--        Включение United Search-->
+        <setting id="united_search" type="boolean" label="30055" help="30056">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+        <setting id="us_command" type="string" label="" help="">
+            <level>4</level>
+            <default>router=search&amp;keyword=</default>
+            <constraints>
+                <allowempty>true</allowempty>
+            </constraints>
+            <control type="edit" format="string">
+                <heading> </heading>
+            </control>
+        </setting>
+      </group>
+<!--      Пункты настройки Shikimori-->
+      <group id="shikimori_label" label="30057">
+        <!--        Установка Shikimori-->
+        <setting id="shikimori_install" type="action" label="30058" help="30059">
+            <level>0</level>
+            <data>InstallAddon(plugin.video.zeltorix.shikimori)</data>
+            <control type="button" format="action">
+                <close>true</close>
+            </control>
+<!--            Не работает нужно уточнить как заставить работать-->
+            <dependencies>
+                <dependency type="visible" operator="System.HasAddon(plugin.video.zeltorix.shikimori)">true</dependency>
+            </dependencies>
+        </setting>
+        <!--        Включение Shikimori-->
+        <setting id="shikimori" type="boolean" label="30060" help="30061">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+        <setting id="shikimori_search" type="string" label="" help="">
+            <level>4</level>
+            <default>router=search&amp;keyword=</default>
+            <constraints>
+                <allowempty>true</allowempty>
+            </constraints>
+            <control type="edit" format="string">
+                <heading> </heading>
+            </control>
+        </setting>
+      </group>
+
+    </category>
+<!--    Категория меню История-->
+    <category id="history_category" label="30100" help="30101">
+      <group id="history_label" label="30102">
+<!--      Включение истории-->
+        <setting id="history" type="boolean" label="30103" help="30104">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+        <setting id="history_limit" type="integer" label="30105" help="30106">
+            <level>0</level>
+            <default>500</default>
+            <constraints>
+                <minimum>0</minimum>
+                <step>1</step>
+                <maximum>10000</maximum>
+            </constraints>
+            <control type="slider" format="integer">
+                <popup>false</popup>
+            </control>
+            <dependencies>
+                <dependency type="visible" setting="history">true</dependency>
+            </dependencies>
+        </setting>
+        <setting id="history_clearing" type="action" label="30107" help="30108">
+            <level>0</level>
+            <data>RunScript(plugin.video.zeltorix.animevost, 0, ?router=history_clearing)</data>
+            <control type="button" format="action">
+                <close>true</close>
+            </control>
+            <dependencies>
+                <dependency type="visible" setting="history">true</dependency>
+            </dependencies>
+        </setting>
+      </group>
+    </category>
+<!--    Категория меню Загрузки-->
+    <category id="download_category" label="30150" help="30151">
+      <group id="download_group" label="30152">
+<!--      Включение Загрузки-->
+        <setting id="download_bool" type="boolean" label="30153" help="30154">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+<!--      Выбор папки для загрузки-->
+        <setting id="download_path" type="path" label="30155" help="30156">
+            <level>0</level>
+            <default/>
+            <constraints>
+                <allowempty>true</allowempty>
+            </constraints>
+            <control type="button" format="path">
+                <heading>30157</heading>
+            </control>
+        </setting>
+      </group>
+    </category>
+<!--      <setting id="url" type="string" label="" help="">-->
+<!--        <level>4</level>-->
+<!--        <default/>-->
+<!--        <constraints>-->
+<!--            <allowempty>true</allowempty>-->
+<!--        </constraints>-->
+<!--        <control type="edit" format="string">-->
+<!--            <heading> </heading>-->
+<!--        </control>-->
+<!--      </setting>-->
+  </section>
+</settings>
+

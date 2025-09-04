@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="plugin.video.zeltorix.anilibria" name="AniLibria (тест авторизации)" version="1.0.5" provider-name="Zeltorix">
+    <requires>
+        <import addon="script.module.zeltorix.utility" version="0.0.205" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For site AniLibria</summary>
+        <summary lang="ru_RU">Для сайта AniLibria</summary>
+        <description lang="en_GB">To watch video on the AniLibria</description>
+        <description lang="ru_RU">Для просмотра видео доступных на сайте AniLibria</description>
+        <disclaimer lang="en_GB">For Kodi «Matrix» 19</disclaimer>
+        <disclaimer lang="ru_RU">Для Kodi «Matrix» 19 и выше</disclaimer>
+        <news>
+            v1.0.0 (2024-03-21)
+                [new] Добавлены дополнительные пункты в меню
+                [new] Добавлено онлайн и офлайн избранное
+                [new] Добавлена авторизация
+                [new] Добавлены контекстные пункты
+                [new] Добавлены обходы ограничений
+                [new] Переход на новый стиль настроек
+            ...
+            v0.1.0 (2023-04-28)
+                [fix] Исправлено воспроизведение с YouTube
+                [new] Добавлена история для поиска
+                [new] Добавлена поддержка KODI 21
+            ...
+            v0.0.0 (2023-01-14)
+                [new] Старт проекта
+        </news>
+        <platform>all</platform>
+        <language>ru en
+        </language> 
+        <license>GPL-3-or-later</license>
+        <forum>https://kodi.moy.su/forum/2-32-1</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/anilibria</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon>

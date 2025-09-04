@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="script.module.zeltorix.packages" name="Набор пакетов" version="0.0.34" provider-name="ZelToRiX">
+    <requires>
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+        <import addon="inputstream.adaptive" version="0.0.0" />
+        <import addon="inputstream.ffmpegdirect" version="0.0.0" optional="true" />
+        <import addon="script.module.requests" version="0.0.0" />
+        <import addon="script.module.beautifulsoup4" version="0.0.0" />
+    </requires>
+    <extension point="xbmc.python.module" library="resources/lib" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Дополнительные пакеты и модули</summary>
+        <description lang="en_GB">Дополнительные пакеты и модули для моих плагинов</description>
+        <language>ru en</language>
+        <license>GPL-3-or-later</license>
+        <forum>https://kodi.moy.su/forum/2-22-1</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/packages/packages</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon></addons>

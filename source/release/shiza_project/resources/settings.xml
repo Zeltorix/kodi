@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Видео">
+        <setting label="Нажать для перехода в настройки"
+                 type="action"
+                 action="Addon.OpenSettings(script.module.zeltorix.utility)"
+                 option="close"/>
+        <setting type="sep"/>
+    </category>
+    <category label="Интеграции">
+        <setting type="bool" id="united_search" visible="true" default="true"
+                 label="Интеграция с дополнением United Search"/>
+        <setting type="text" id="us_command" visible="false" default="router=search&keyword="/>
+        <setting type="sep"/>
+    </category>
+    <category label="История">
+        <setting type="bool"
+                 id="history"
+                 visible="true"
+                 default="true"
+                 label="Включить историю поиска"/>
+        <setting type="sep"/>
+        <setting label="Количество записей"
+                 type="slider"
+                 id="history_limit"
+                 default="100"
+                 range="1,5000"
+                 option="int"/>
+        <setting type="sep"/>
+        <setting label="Очистить всю историю"
+                 type="action"
+                 action="RunScript(plugin.video.zeltorix.shiza.project, 0, ?router=history_clearing)"/>
+        <setting type="sep"/>
+        <setting type="text"
+                 id="history_realise"
+                 visible="false"
+                 default=""/>
+        <setting type="sep"/>
+    </category>
+</settings>

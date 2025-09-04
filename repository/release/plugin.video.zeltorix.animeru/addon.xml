@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="plugin.video.zeltorix.animeru" name="Animeru (не работает, ддос защита)" version="0.0.51" provider-name="Zeltorix">
+
+    <requires>
+        <import addon="script.module.zeltorix.utility" version="0.0.149" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <language>ru en</language>
+
+        <summary lang="en_GB">For site Animeru</summary>
+        <description lang="en_GB">To watch video on the Animeru</description>
+        <disclaimer lang="en_GB">Unofficial plugin for Kodi «Matrix» 19 and later</disclaimer>
+
+        <summary lang="ru_RU">База №1 по просмотру аниме онлайн бесплатно</summary>
+        <description lang="ru_RU">Аниме - это искусство мультипликации зародилось еще в XX в. на Востоке, в далекой Японии. Но что удивительно, своим названием этот жанр обязан вовсе не японскому слову. Как вы уже догадались, слово «аниме» это всего лишь сокращение от английского «animation», которое получило успешное распространение из-за своей простоты произношения. Однако, не нужно торопиться. Ведь именно познав простоту и легкость этого удивительного жанра, вы возможно познаете себя. Японская анимация обладает качественными отличиями от своих европейских собратьев. Все дело в особом менталитете и, конечно же, оригинальной рисовке.</description>
+        <disclaimer lang="ru_RU">Не официальный плагин для Kodi «Matrix» 19 и выше</disclaimer>
+
+        <news>
+            v0.0.1 (2023-07-04)
+                [new]
+                [fix]
+            ...
+            v0.0.1 (2023-07-04)
+                [new] Старт проекта
+                [fix]
+        </news>
+
+        <license>GPL-3-or-later</license>
+        <forum>https://kodi.moy.su/forum/2-14-1</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/animeru</source>
+
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+
+        <platform>all</platform>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+
+    </extension>
+</addon>

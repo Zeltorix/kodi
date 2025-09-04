@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="script.module.zeltorix.utility" name="Набор инструментов" version="0.0.289" provider-name="ZelToRiX">
+    <requires>
+        <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
+        <import addon="script.module.requests" version="2.27.1+matrix.1" />
+        <import addon="script.module.zeltorix.packages" version="0.0.24" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.python.module" library="resources/lib" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Дополнительные пакеты</summary>
+        <description lang="en_GB">Дополнения для моих плагинов
+        </description>
+        <language>ru en</language>
+        <license>GPL-3-or-later</license>
+        <forum>https://kodi.moy.su/forum/2-22-1</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/utility/utility</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon></addons>

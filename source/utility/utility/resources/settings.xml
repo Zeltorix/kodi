@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Без ста грамм не разобраться)-->
+<!--Всегда должна быть версия 1 для работы настроек секции-->
+<settings version="1">
+<!--  Здесь должно быть ID плагина, хотя работает с любым значением-->
+  <section id="script.module.zeltorix.utility">
+<!--    Категория меню Обход блокировки-->
+    <category id="anti_block" label="30000" help="30001">
+<!--      Пункты настройки прокси-->
+      <group id="proxy" label="30002">
+<!--        Выбор поставщика-->
+        <setting id="proxy_type" type="integer" label="30005">
+          <level>1</level>
+          <default>1</default>
+          <constraints>
+            <options>
+              <option label="30007">0</option>
+              <option label="30008">1</option>
+              <option label="30009">2</option>
+            </options>
+          </constraints>
+          <control type="list" format="string">
+              <heading>30006</heading>
+          </control>
+        </setting>
+<!--        Ввод в ручную прокси адрес сервера-->
+        <setting id="proxy_manual_server" type="string" label="30010" help="30011">
+            <level>0</level>
+	        <default>localhost</default>
+            <constraints>
+		        <allowempty>false</allowempty>
+            </constraints>
+<!--            Условия видимости если включен выбор ручного ввода-->
+            <dependencies>
+                <dependency type="visible" setting="proxy_type">0</dependency>
+            </dependencies>
+            <control type="edit" format="string">
+                <heading>30012</heading>
+            </control>
+        </setting>
+<!--        Ввод в ручную прокси порт-->
+        <setting id="proxy_manual_port" type="integer" label="30013" help="30014">
+            <level>0</level>
+	        <default>0</default>
+<!--            Условия видимости если включен выбор ручного ввода-->
+            <dependencies>
+                <dependency type="visible" setting="proxy_type">0</dependency>
+            </dependencies>
+            <control type="edit" format="integer">
+                <heading>30015</heading>
+            </control>
+        </setting>
+        <setting id="proxy_provider_reload" type="action" label="30016" help="30017">
+	        <level>0</level>
+	        <data>RunPlugin(plugin://script.module.zeltorix.utility/?router=proxy_provider_reload)</data>
+            <dependencies>
+                <dependency type="visible">
+                    <or>
+                        <condition setting="proxy_type">1</condition>
+                        <condition setting="proxy_type">2</condition>
+		            </or>
+                </dependency>
+            </dependencies>
+	        <control type="button" format="action">
+		        <close>true</close>
+	        </control>
+        </setting>
+        <setting id="proxy_query" type="string" label="" help="">
+            <level>4</level>
+            <default/>
+            <constraints>
+                <allowempty>true</allowempty>
+            </constraints>
+            <control type="edit" format="string">
+                <heading> </heading>
+            </control>
+        </setting>
+      </group>
+    </category>
+<!--    Категория меню Интернет-->
+    <category id="request" label="30050" help="30051">
+      <group id="request_label_timeout" label="30052">
+<!--          Тайминги ожидания-->
+        <setting id="request_timeout" type="integer" label="30053" help="30054">
+            <level>3</level>
+            <default>10</default>
+            <constraints>
+                <minimum>2</minimum>
+                <step>1</step>
+                <maximum>120</maximum>
+            </constraints>
+            <control type="slider" format="integer">
+                <popup>false</popup>
+            </control>
+        </setting>
+      </group>
+<!--          Число повторных запросов-->
+      <group id="request_label_number" label="30055">
+        <setting id="request_retry" type="integer" label="30056" help="30057">
+            <level>3</level>
+            <default>1</default>
+            <constraints>
+                <minimum>0</minimum>
+                <step>1</step>
+                <maximum>30</maximum>
+            </constraints>
+            <control type="slider" format="integer">
+                <popup>false</popup>
+            </control>
+        </setting>
+      </group>
+<!--          Время перерыва в запросах-->
+      <group id="request_label_time_sleep" label="30058">
+        <setting id="request_time_sleep" type="integer" label="30059" help="30060">
+            <level>3</level>
+            <default>0</default>
+            <constraints>
+                <minimum>0</minimum>
+                <step>1</step>
+                <maximum>120</maximum>
+            </constraints>
+            <control type="slider" format="integer">
+                <popup>false</popup>
+            </control>
+        </setting>
+      </group>
+<!--          Проверка сертификата-->
+      <group id="request_label_verify" label="30061">
+        <setting id="request_verify" type="boolean" label="30062" help="30063">
+          <level>3</level>
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+      </group>
+    </category>
+<!--    Категория меню Вид-->
+    <category id="view" label="30100" help="30101">
+      <group id="view_label" label="30102">
+      <!--        Выбор типа контента-->
+        <setting id="view_content" type="integer" label="30103">
+          <level>1</level>
+          <default>8</default>
+          <constraints>
+            <options>
+              <option label="30104">0</option>
+              <option label="30105">1</option>
+              <option label="30106">2</option>
+              <option label="30107">3</option>
+              <option label="30108">4</option>
+              <option label="30109">5</option>
+              <option label="30110">6</option>
+              <option label="30111">7</option>
+              <option label="30112">8</option>
+              <option label="30113">9</option>
+              <option label="30114">10</option>
+            </options>
+          </constraints>
+          <control type="list" format="string">
+              <heading>30115</heading>
+          </control>
+        </setting>
+      </group>
+    </category>
+<!--    Категория меню Воспроизведение-->
+    <category id="video_category" label="30150" help="30151">
+  <!--        Группа для Видео-->
+      <group id="video_group" label="30152">
+      <!--        Выбор разрешения видео-->
+        <setting id="video_resolution" type="integer" label="30153">
+          <level>1</level>
+          <default>0</default>
+          <constraints>
+            <options>
+              <option label="30154">0</option>
+              <option label="30155">360</option>
+              <option label="30156">480</option>
+              <option label="30157">640</option>
+              <option label="30158">720</option>
+              <option label="30159">1080</option>
+              <option label="30160">1440</option>
+              <option label="30161">2160</option>
+            </options>
+          </constraints>
+          <control type="list" format="string">
+              <heading>30162</heading>
+          </control>
+        </setting>
+      </group>
+  <!--        Группа для inputstream-->
+      <group id="inputstream_group" label="30163">
+      <!--        Включения выключения всех inputstream-->
+        <setting id="inputstream" type="boolean" label="30164" help="30165">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+      </group>
+  <!--        Группа для inputstream.adaptive-->
+      <group id="inputstream_adaptive_group" label="30166">
+
+      <!--        Включения inputstream.adaptive-->
+        <setting id="inputstream_adaptive_bool" type="boolean" label="30167" help="30168">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+          <dependencies>
+            <dependency type="visible" setting="inputstream">true</dependency>
+          </dependencies>
+        </setting>
+      <!--        Выбор разрешения в inputstream.adaptive-->
+        <setting id="inputstream_adaptive_selection_resolution_bool" type="boolean" label="30169" help="30170">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+          <dependencies>
+            <dependency type="visible" setting="inputstream_adaptive_bool">true</dependency>
+            <dependency type="visible" setting="inputstream">true</dependency>
+          </dependencies>
+        </setting>
+      <!--        Выбор типа контента-->
+        <setting id="inputstream_adaptive_selection_resolution" type="integer" label="30171">
+          <level>1</level>
+          <default>3</default>
+          <constraints>
+            <options>
+              <option label="30172">0</option>
+              <option label="30173">1</option>
+              <option label="30174">2</option>
+              <option label="30175">3</option>
+            </options>
+          </constraints>
+          <dependencies>
+            <dependency type="visible" setting="inputstream_adaptive_selection_resolution_bool">true</dependency>
+            <dependency type="visible" setting="inputstream_adaptive_bool">true</dependency>
+            <dependency type="visible" setting="inputstream">true</dependency>
+          </dependencies>
+          <control type="list" format="string">
+              <heading>30176</heading>
+          </control>
+        </setting>
+      </group>
+  <!--        Группа для inputstream.ffmpegdirect-->
+      <group id="inputstream_ffmpegdirect_group" label="30177">
+      <!--        Включения выключения всех inputstream-->
+        <setting id="inputstream_ffmpegdirect_bool" type="boolean" label="30178" help="30179">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+          <dependencies>
+            <dependency type="visible" setting="inputstream">true</dependency>
+          </dependencies>
+        </setting>
+      </group>
+    </category>
+  </section>
+</settings>

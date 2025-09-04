@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Без ста грамм не разобраться)-->
+<!--Всегда должна быть версия 1 для работы настроек секции-->
+<settings version="1">
+<!--  Здесь должно быть ID плагина, хотя работает с любым значением-->
+  <section id="plugin.video.zeltorix.anibaza">
+<!--    Категория меню Видео-->
+    <category id="video_category" label="30000" help="30001">
+<!--      Пункты настройки Видео-->
+      <group id="inputstream_o_label" label="30002">
+<!--        Настройка Видео-->
+        <setting id="inputstream_menu" type="action" label="30003" help="30004">
+            <level>0</level>
+            <data>Addon.OpenSettings(script.module.zeltorix.utility)</data>
+            <control type="button" format="action">
+                <close>true</close>
+            </control>
+        </setting>
+      </group>
+      <group id="players_label" label="30005">
+        <setting id="player_target" type="integer" label="30006">
+          <level>0</level>
+          <default>0</default>
+          <constraints>
+            <options>
+              <option label="30007">0</option>
+              <option label="30008">1</option>
+              <option label="30009">2</option>
+              <option label="30010">3</option>
+            </options>
+          </constraints>
+          <control type="list" format="string">
+              <heading>30011</heading>
+          </control>
+        </setting>
+      </group>
+    </category>
+<!--    Категория меню Интеграции-->
+    <category id="integration_category" label="30050" help="30051">
+<!--      Пункты настройки United Search-->
+      <group id="united_search_label" label="30052">
+        <!--        Включение United Search-->
+        <setting id="united_search" type="boolean" label="30055" help="30056">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+        <setting id="us_command" type="string" label="" help="">
+            <level>4</level>
+            <default>router=search&amp;keyword=</default>
+            <constraints>
+                <allowempty>true</allowempty>
+            </constraints>
+            <control type="edit" format="string">
+                <heading> </heading>
+            </control>
+        </setting>
+      </group>
+<!--      Пункты настройки Shikimori-->
+      <group id="shikimori_label" label="30057">
+        <!--        Включение Shikimori-->
+        <setting id="shikimori" type="boolean" label="30060" help="30061">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+        <setting id="shikimori_search" type="string" label="" help="">
+            <level>4</level>
+            <default>router=search&amp;keyword=</default>
+            <constraints>
+                <allowempty>true</allowempty>
+            </constraints>
+            <control type="edit" format="string">
+                <heading> </heading>
+            </control>
+        </setting>
+      </group>
+
+    </category>
+<!--    Категория меню История-->
+    <category id="history_category" label="30100" help="30101">
+<!--Группа истории-->
+      <group id="history_label" label="30102">
+<!--      Включение истории-->
+        <setting id="history" type="boolean" label="30103" help="30104">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+<!--          Количество записей в истории-->
+        <setting id="history_limit" type="integer" label="30105" help="30106">
+            <level>0</level>
+            <default>500</default>
+            <constraints>
+                <minimum>0</minimum>
+                <step>1</step>
+                <maximum>10000</maximum>
+            </constraints>
+            <control type="slider" format="integer">
+                <popup>false</popup>
+            </control>
+            <dependencies>
+                <dependency type="visible" setting="history">true</dependency>
+            </dependencies>
+        </setting>
+<!--          Очистка истории-->
+        <setting id="history_clearing" type="action" label="30107" help="30108">
+            <level>0</level>
+            <data>RunPlugin(plugin://$ID/?router=history_clearing)</data>
+            <control type="button" format="action">
+                <close>true</close>
+            </control>
+            <dependencies>
+                <dependency type="visible" setting="history">true</dependency>
+            </dependencies>
+        </setting>
+      </group>
+    </category>
+<!--    Категория меню Загрузки-->
+    <category id="download_category" label="30150" help="30151">
+      <group id="download_group" label="30152">
+<!--      Включение Загрузки-->
+        <setting id="download_bool" type="boolean" label="30153" help="30154">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+<!--      Выбор папки для загрузки-->
+        <setting id="download_path" type="path" label="30155" help="30156">
+            <level>0</level>
+            <default/>
+            <constraints>
+                <allowempty>true</allowempty>
+            </constraints>
+            <control type="button" format="path">
+                <heading>30157</heading>
+            </control>
+        </setting>
+      </group>
+    </category>
+<!--    Категория меню Интернет-->
+    <category id="internet_category" label="30200" help="30201">
+<!--        Группа общих настроек-->
+      <group id="internet_label" label="30202">
+        <setting id="internet_general" type="action" label="30203" help="30203">
+            <level>0</level>
+            <data>Addon.OpenSettings(script.module.zeltorix.utility)</data>
+            <control type="button" format="action">
+                <close>true</close>
+            </control>
+        </setting>
+      </group>
+<!--        Группа авторизации-->
+      <group id="auth_group" label="30204">
+<!--      Отображение пункта Авторизация-->
+        <setting id="auth_bool" type="boolean" label="30205" help="30206">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+<!--    Удаление авторизации-->
+        <setting id="auth_del" type="action" label="30207" help="30208">
+            <level>0</level>
+            <data>RunPlugin(plugin://$ID/?router=auth_del)</data>
+            <control type="button" format="action">
+                <close>true</close>
+            </control>
+            <dependencies>
+                <dependency type="visible" setting="auth_bool">true</dependency>
+            </dependencies>
+        </setting>
+      </group>
+<!--        Группа кэша-->
+      <group id="cache_label" label="30209">
+<!--      Включение кэша-->
+        <setting id="cache" type="boolean" label="30210" help="30211">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+<!--          Минуты кэша хранения релизов-->
+        <setting id="cache_time_release" type="integer" label="30212" help="30213">
+            <level>1</level>
+            <default>60</default>
+            <constraints>
+                <minimum>0</minimum>
+                <step>1</step>
+                <maximum>1440</maximum>
+            </constraints>
+            <control type="slider" format="integer">
+                <popup>false</popup>
+            </control>
+            <dependencies>
+                <dependency type="visible" setting="cache">true</dependency>
+            </dependencies>
+        </setting>
+<!--          Минуты кэша хранения новых серий-->
+        <setting id="cache_time_new" type="integer" label="30214" help="30215">
+            <level>1</level>
+            <default>10</default>
+            <constraints>
+                <minimum>0</minimum>
+                <step>1</step>
+                <maximum>1440</maximum>
+            </constraints>
+            <control type="slider" format="integer">
+                <popup>false</popup>
+            </control>
+            <dependencies>
+                <dependency type="visible" setting="cache">true</dependency>
+            </dependencies>
+        </setting>
+<!--          Минуты кэша хранения остальных списков-->
+        <setting id="cache_time_default" type="integer" label="30218" help="30219">
+            <level>1</level>
+            <default>60</default>
+            <constraints>
+                <minimum>0</minimum>
+                <step>1</step>
+                <maximum>10080</maximum>
+            </constraints>
+            <control type="slider" format="integer">
+                <popup>false</popup>
+            </control>
+            <dependencies>
+                <dependency type="visible" setting="cache">true</dependency>
+            </dependencies>
+        </setting>
+<!--          Минуты кэша хранения Все аниме-->
+        <setting id="cache_time_all" type="integer" label="30220" help="30221">
+            <level>1</level>
+            <default>1440</default>
+            <constraints>
+                <minimum>60</minimum>
+                <step>1</step>
+                <maximum>10080</maximum>
+            </constraints>
+            <control type="slider" format="integer">
+                <popup>false</popup>
+            </control>
+            <dependencies>
+                <dependency type="visible" setting="cache">true</dependency>
+            </dependencies>
+        </setting>
+<!--          Очистка кэша-->
+        <setting id="cache_clearing" type="action" label="30222" help="30223">
+            <level>0</level>
+            <data>RunPlugin(plugin://$ID/?router=cache_clearing)</data>
+            <control type="button" format="action">
+                <close>true</close>
+            </control>
+            <dependencies>
+                <dependency type="visible" setting="cache">true</dependency>
+            </dependencies>
+        </setting>
+      </group>
+    </category>
+<!--    Категория меню Вид-->
+    <category id="view_category" label="30250" help="30251">
+<!--        Группа общих настроек-->
+      <group id="view_label" label="30252">
+        <setting id="view_general" type="action" label="30253" help="30254">
+            <level>0</level>
+            <data>Addon.OpenSettings(script.module.zeltorix.utility)</data>
+            <control type="button" format="action">
+                <close>true</close>
+            </control>
+        </setting>
+      </group>
+<!--        Группа лимитов списков-->
+      <group id="limits_label" label="30255">
+<!--          Количество рилизов в Новых сериях-->
+        <setting id="limits_list_new" type="integer" label="30256" help="30257">
+            <level>0</level>
+            <default>100</default>
+            <constraints>
+                <minimum>0</minimum>
+                <step>1</step>
+                <maximum>200</maximum>
+            </constraints>
+            <control type="slider" format="integer">
+                <popup>false</popup>
+            </control>
+        </setting>
+      </group>
+    </category>
+  </section>
+</settings>

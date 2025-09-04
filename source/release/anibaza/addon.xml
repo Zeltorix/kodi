@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="plugin.video.zeltorix.anibaza" name="AniBaza (не работает, нет открытого источника)" version="0.0.11" provider-name="Zeltorix">
+    <requires>
+        <import addon="script.module.zeltorix.utility" version="0.0.220" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For site AniBaza</summary>
+        <summary lang="ru_RU">Для сайта AniBaza</summary>
+        <description lang="en_GB">To watch video on the AniBaza</description>
+        <description lang="ru_RU">Для просмотра видео доступных на сайте AniBaza</description>
+        <disclaimer lang="en_GB">For Kodi «Matrix» 19</disclaimer>
+        <disclaimer lang="ru_RU">Для Kodi «Matrix» 19 и выше</disclaimer>
+        <news>
+            v0.0.0 (2024-06-01)
+            ...
+            v0.0.0 (2024-06-01)
+                [new] Старт проекта
+        </news>
+        <platform>all</platform>
+        <language>ru en
+        </language> 
+        <license>GPL-3-or-later</license>
+        <forum>https://kodi.moy.su/forum/2-50-1</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/anibaza</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="repository.zeltorix.dev.tools" name="ZelToRiX DEV TOOLS Add-on repository" version="0.0.5" provider-name="ZelToRiX">
+  <extension point="xbmc.addon.repository" name="ZelToRiX DEV TOOLS Add-on repository">
+    <dir minversion="19.0.0">
+      <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/dev_tools/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/dev_tools/addons.xml.md5</checksum>
+      <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/dev_tools/</datadir>
+    </dir>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Install Add-ons from ZelToRiX DEV TOOLS repository</summary>
+    <summary lang="ru">Установить дополнения от ZelToRiX DEV TOOLS</summary>
+    <description lang="en">Download and install add-ons from the ZelToRiX add-on repository</description>
+    <description lang="ru">Репозитория с попытками создать плагины</description>
+    <source>https://github.com/Zeltorix/kodi/raw/main/source/dev_tools/repository_dev_tools</source>
+    <platform>all</platform>
+    <news>
+      v0.0.1 (2023-12-06)
+      [new] Страт проекта
+      [fix] ...
+    </news>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.jpg</icon>
+    </assets>
+  </extension>
+</addon>
