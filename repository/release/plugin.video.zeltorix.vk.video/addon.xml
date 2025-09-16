@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест, пунктов)" version="0.0.92" provider-name="Zeltorix">
+<addon id="plugin.video.zeltorix.vk.video" name="VK Видео (тест, пунктов)" version="0.0.93" provider-name="Zeltorix">
     <requires>
         <import addon="script.module.zeltorix.utility" version="0.0.258" />
     </requires>
