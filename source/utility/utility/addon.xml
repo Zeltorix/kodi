@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="script.module.zeltorix.utility" name="Набор инструментов" version="0.0.291" provider-name="ZelToRiX">
+<addon id="script.module.zeltorix.utility" name="Набор инструментов" version="0.0.292" provider-name="ZelToRiX">
     <requires>
         <import addon="xbmc.python" minversion="3.0.0" version="3.0.1" />
         <import addon="script.module.requests" version="2.27.1+matrix.1" />
