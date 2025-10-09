@@ -15,6 +15,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'resources', 'lib'))
 from web_api_request import Proxy
 from view import View
 
+
 if __name__ == '__main__':
     def router(data_string: str) -> None:
         try:
@@ -27,13 +28,15 @@ if __name__ == '__main__':
                 if Proxy().proxy_provider_reload():
                     _view.dialog_ok("Прокси", "Поставщик прокси обновлён")
         else:
-            _view.output({
-                "list": [
-                    {
-                        "title": "Здесь ни чего интересного пока нет.",
-                    },
-                ]
-            })
+            _view.open_settings()
+
+            # _view.output({
+            #     "list": [
+            #         {
+            #             "title": "Здесь ни чего интересного пока нет.",
+            #         },
+            #     ]
+            # })
 
 
     router(sys.argv[2][1:])
