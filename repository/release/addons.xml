@@ -492,7 +492,7 @@
             <icon>icon.jpg</icon>
         </assets>
     </extension>
-</addon><addon id="plugin.video.zeltorix.rutube" name="RUTUBE (тест)" version="0.0.58" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.rutube" name="RUTUBE (тест)" version="0.0.59" provider-name="Zeltorix">
     <requires>
         <import addon="script.module.requests" version="2.25.1" />
         <import addon="script.module.zeltorix.utility" version="0.0.1" />
