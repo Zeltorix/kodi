@@ -571,7 +571,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <debugging>true</debugging>
     </extension>
-</addon><addon id="plugin.video.zeltorix.softboxtv" name="Softboxtv (тест)" version="0.0.40" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.softboxtv" name="Softboxtv (тест)" version="0.0.41" provider-name="Zeltorix">
     <requires>
         <import addon="script.module.zeltorix.utility" version="0.0.248" />
     </requires>
