@@ -169,7 +169,7 @@
         <debugging>true</debugging>
 
     </extension>
-</addon><addon id="plugin.video.zeltorix.animevost" name="AnimeVost (тест)" version="0.0.19" provider-name="Zeltorix">
+</addon><addon id="plugin.video.zeltorix.animevost" name="AnimeVost (тест)" version="0.0.20" provider-name="Zeltorix">
     <requires>
         <import addon="script.module.zeltorix.utility" version="0.0.198" />
     </requires>
