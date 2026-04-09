@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="plugin.video.zeltorix.worldcams.tv" name="World Cams (тест)" version="0.0.27" provider-name="Zeltorix">
+    <requires>
+        <import addon="script.module.zeltorix.utility" version="0.0.103" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For the worldcams.tv website</summary>
+        <summary lang="ru_RU">Для сайта worldcams.tv</summary>
+        <description lang="en_GB">To watch the live broadcast and other videos available on the worldcams.tv website</description>
+        <description lang="ru_RU">Для просмотра прямого эфира и прочих видео доступных на сайте worldcams.tv</description>
+        <disclaimer lang="en_GB">Unofficial plugin</disclaimer>
+        <disclaimer lang="ru_RU">Не официальный плагин</disclaimer>
+        <news>
+            v0.0.1 (2023-10-30)
+                [new]
+                [fix]
+            ...
+            v0.0.1 (2023-10-30)
+                [new] Старт проекта
+        </news>
+        <platform>all</platform>
+        <language>ru</language>
+        <license>GPL-3-or-later</license>
+        <forum>https://kodi.moy.su/forum/2-20-1</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/release/worldcams_tv</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon>

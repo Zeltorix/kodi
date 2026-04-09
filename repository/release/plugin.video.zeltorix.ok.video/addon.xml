@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="plugin.video.zeltorix.ok.video" name="OK Видео (тест)" version="0.0.26" provider-name="Zeltorix">
+    <requires>
+        <import addon="script.module.requests" version="2.25.1" />
+        <import addon="script.module.zeltorix.utility" version="0.0.156" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For site OK Video</summary>
+        <summary lang="ru_RU">Для сайта OK Видео</summary>
+        <description lang="en_GB">To watch video on the OK Video</description>
+        <description lang="ru_RU">Для просмотра видео доступных на сайте OK Видео</description>
+        <disclaimer lang="en_GB">For Kodi «Matrix» 19</disclaimer>
+        <disclaimer lang="ru_RU">Для Kodi «Matrix» 19 и выше</disclaimer>
+        <news>
+            v0.0.1 (2023-05-26)
+                [new]
+                [fix]
+            ...
+            v0.0.1 (2023-05-26)
+                [new] Старт проекта
+                [fix]
+        </news>
+        <platform>all</platform>
+        <language>ru en
+        </language> 
+        <license>GPL-3-or-later</license>
+        <forum>https://kodi.moy.su/forum/2-16-1</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/ok_video</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon>

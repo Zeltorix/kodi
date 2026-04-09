@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="plugin.video.zeltorix.krasview" name="Krasview (тест)" version="0.0.37" provider-name="Zeltorix">
+    <requires>
+        <import addon="script.module.zeltorix.utility" version="0.0.124" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For site Krasview</summary>
+        <summary lang="ru_RU">Для сайта Krasview</summary>
+        <description lang="en_GB">To watch video on the Krasview</description>
+        <description lang="ru_RU">Для просмотра видео доступных на сайте Krasview</description>
+        <disclaimer lang="en_GB">For Kodi «Matrix» 19</disclaimer>
+        <disclaimer lang="ru_RU">Для Kodi «Matrix» 19 и выше</disclaimer>
+        <news>
+            v0.0.1 (2023-07-17)
+                [new]
+                [fix]
+            ...
+            v0.0.1 (2023-07-17)
+                [new] Старт проекта
+                [fix]
+        </news>
+        <platform>all</platform>
+        <language>ru en
+        </language> 
+        <license>GPL-3-or-later</license>
+        <forum>https://kodi.moy.su/forum/2-15-1</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/release/krasview</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon>

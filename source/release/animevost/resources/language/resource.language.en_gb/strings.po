@@ -1,0 +1,259 @@
+# Kodi Media Center language file
+# Addon Name: Utility
+# Addon id: script.module.zeltorix.animevost
+# Addon Provider: Zeltorix
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Addons\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2024-02-07 00:00+0000\n"
+"Last-Translator: Zeltorix\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_ru en_gb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "Addon Summary"
+msgid ""
+msgstr ""
+
+msgctxt "Addon Description"
+msgid ""
+msgstr ""
+
+
+# Видео 30000 to 30049
+
+msgctxt "#30000"
+msgid "Видео"
+msgstr "Видео"
+
+msgctxt "#30001"
+msgid "Настройки для видео"
+msgstr "Настройки для видео"
+
+msgctxt "#30002"
+msgid "Настройки inputstream"
+msgstr "Настройки inputstream"
+
+msgctxt "#30003"
+msgid "Настроить inputstream, используется ffmpegdirect"
+msgstr "Настроить inputstream, используется ffmpegdirect"
+
+msgctxt "#30004"
+msgid "Переход в настройки плагина script.module.zeltorix.utility"
+msgstr "Переход в настройки плагина script.module.zeltorix.utility"
+
+msgctxt "#30005"
+msgid "Настройки видео для текущего плагина"
+msgstr "Настройки видео для текущего плагина"
+
+msgctxt "#30006"
+msgid "Разрешение видео"
+msgstr "Разрешение видео"
+
+msgctxt "#30007"
+msgid "Выбор разрешения видео, не зависающей от inputstream"
+msgstr "Выбор разрешения видео, не зависающей от inputstream"
+
+msgctxt "#30008"
+msgid "Автоматическое"
+msgstr "Автоматическое"
+
+msgctxt "#30009"
+msgid "SD(480p)"
+msgstr "SD(480p)"
+
+msgctxt "#30010"
+msgid "HD(720p)"
+msgstr "HD(720p)"
+
+msgctxt "#30011"
+msgid "FHD(1080p)"
+msgstr "FHD(1080p)"
+
+msgctxt "#30012"
+msgid "Выбор разрешения видео"
+msgstr "Выбор разрешения видео"
+
+
+# Интеграции 30050 to 3099
+
+msgctxt "#30050"
+msgid "Интеграции"
+msgstr "Интеграции"
+
+msgctxt "#30051"
+msgid "Настройки интеграции сторонних плагинов, для использования текущего плагина"
+msgstr "Настройки интеграции сторонних плагинов, для использования текущего плагина"
+
+msgctxt "#30052"
+msgid "United Search, поисковой плагин"
+msgstr "United Search, поисковой плагин"
+
+msgctxt "#30053"
+msgid "Установить United Search"
+msgstr "Установить United Search"
+
+msgctxt "#30054"
+msgid "Установить United Search, находится в репозиториях Search.db и vl.maksime, возможно ещё в каких то"
+msgstr "Установить United Search, находится в репозиториях Search.db и vl.maksime, возможно ещё в каких то"
+
+msgctxt "#30055"
+msgid "Дать доступ"
+msgstr "Дать доступ"
+
+msgctxt "#30056"
+msgid "Разрешить United Search использовать текущий плагин в качестве источника данных для поиска"
+msgstr "Разрешить United Search использовать текущий плагин в качестве источника данных для поиска"
+
+msgctxt "#30057"
+msgid "Shikimori, база аниме"
+msgstr "Shikimori, база аниме"
+
+msgctxt "#30058"
+msgid "Установить Shikimori"
+msgstr "Установить Shikimori"
+
+msgctxt "#30059"
+msgid "Установить Shikimori, находится в репозиториях Search.db и Zeltorix, возможно ещё в каких то"
+msgstr "Установить Shikimori, находится в репозиториях Search.db и Zeltorix, возможно ещё в каких то"
+
+msgctxt "#30060"
+msgid "Дать доступ"
+msgstr "Дать доступ"
+
+msgctxt "#30061"
+msgid "Разрешить использовать Shikimori текущий плагин в качестве источника данных"
+msgstr "Разрешить использовать Shikimori текущий плагин в качестве источника данных"
+
+
+# История 30100 to 30149
+
+msgctxt "#30100"
+msgid "История"
+msgstr "История"
+
+msgctxt "#30101"
+msgid "Настройки для истории"
+msgstr "Настройки для истории"
+
+msgctxt "#30102"
+msgid "Настройки Истории"
+msgstr "Настройки Истории"
+
+msgctxt "#30103"
+msgid "Включить"
+msgstr "Включить"
+
+msgctxt "#30104"
+msgid "Добавляют в меню поиска недавние запросы"
+msgstr "Добавляют в меню поиска недавние запросы"
+
+msgctxt "#30105"
+msgid "Количество записей"
+msgstr "Количество записей"
+
+msgctxt "#30106"
+msgid "Выбор отображения количества записей для отображения в Меню поиска"
+msgstr "Выбор отображения количества записей для отображения в Меню поиска"
+
+msgctxt "#30107"
+msgid "Очистить всю историю"
+msgstr "Очистить всю историю"
+
+msgctxt "#30108"
+msgid "Очищает все записи в меню поиска"
+msgstr "Очищает все записи в меню поиска"
+
+# Интернет 30150 to 30199
+
+msgctxt "#30150"
+msgid "Интернет"
+msgstr "Интернет"
+
+msgctxt "#30151"
+msgid "Настройки интернета"
+msgstr "Настройки интернета"
+
+msgctxt "#30152"
+msgid "Настройки интернета"
+msgstr "Настройки интернета"
+
+msgctxt "#30153"
+msgid "Переход к общим настройкам"
+msgstr "Переход к общим настройкам"
+
+msgctxt "#30154"
+msgid "Перейти в общие настройки моих плагинов"
+msgstr "Перейти в общие настройки моих плагинов"
+
+msgctxt "#30155"
+msgid "Обход блокировки"
+msgstr "Обход блокировки"
+
+msgctxt "#30156"
+msgid "Включить"
+msgstr "Включить"
+
+msgctxt "#30157"
+msgid "Обход блокировки список аниме, настраивается в общих настройках"
+msgstr "Обход блокировки список аниме, настраивается в общих настройках"
+
+msgctxt "#30158"
+msgid "Выбор обхода блокировки"
+msgstr "Выбор обхода блокировки"
+
+msgctxt "#30159"
+msgid "Основной сайт"
+msgstr "Основной сайт"
+
+msgctxt "#30160"
+msgid "Получения зеркала автоматически"
+msgstr "Получения зеркала автоматически"
+
+msgctxt "#30161"
+msgid "Ввод зеркала в ручную"
+msgstr "Ввод зеркала в ручную"
+
+msgctxt "#30162"
+msgid "Использовать прокси AnimeVost"
+msgstr "Использовать прокси AnimeVost"
+
+msgctxt "#30163"
+msgid "Использовать прокси из Набора инструментов"
+msgstr "Использовать прокси из Набора инструментов"
+
+msgctxt "#30164"
+msgid "Выбор метода обхода"
+msgstr "Выбор метода обхода"
+
+msgctxt "#30165"
+msgid "Ввод адреса вручную"
+msgstr "Ввод адреса вручную""
+
+msgctxt "#30166"
+msgid "Ввод адреса вручную, без протокола"
+msgstr "Ввод адреса вручную, без протокола"
+
+msgctxt "#30167"
+msgid "Текущий адрес сайта"
+msgstr "Текущий адрес сайта""
+
+msgctxt "#30168"
+msgid "Обновить локальный прокси AnimeVost"
+msgstr "Обновить локальный прокси AnimeVost"
+
+msgctxt "#30169"
+msgid "Попытка обновить прокси AnimeVost"
+msgstr "Попытка обновить прокси AnimeVost"
+
+
+# 30999
+
+msgctxt "#30999"
+msgid ""
+msgstr ""

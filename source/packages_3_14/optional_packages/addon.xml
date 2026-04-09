@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="script.module.zeltorix.optional_packages" name="Опциональный набор пакетов" version="0.0.7" provider-name="ZelToRiX">
+    <requires>
+        <import addon="xbmc.python" minversion="3.14.0" version="3.14.0" />
+    </requires>
+    <extension point="xbmc.python.module" library="resources/lib" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Дополнительные пакеты и модули 3.14</summary>
+        <description lang="en_GB">Дополнительные пакеты и модули для моих плагинов 3.14</description>
+        <language>ru en</language>
+        <license>GPL-3-or-later</license>
+        <forum>https://kodi.moy.su/forum/2-22-1</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/source/packages_3_14/optional_packages</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Видео">
+        <setting type="bool"
+                 id="inputstream_adaptive"
+                 visible="true"
+                 default="true"
+                 label="Активация inputstream.adaptive"
+        />
+        <setting type="sep"/>
+    </category>
+    <category label="Интеграции">
+        <setting type="bool"
+                 id="united_search"
+                 visible="true"
+                 default="true"
+                 label="Интеграция с поисковым плагином United Search"
+        />
+        <setting type="sep"/>
+        <setting type="text"
+                 id="us_command"
+                 visible="false"
+                 default="router=search&keyword="
+        />
+        <setting type="sep"/>
+    </category>
+    <category label="История">
+        <setting type="bool"
+                 id="history"
+                 visible="true"
+                 default="true"
+                 label="Включить историю поиска"
+        />
+        <setting label="Количество записей"
+                 type="slider"
+                 id="history_limit"
+                 default="50"
+                 range="1,500"
+                 option="int"
+        />
+        <setting label="Очистить всю историю"
+                 type="action"
+                 action="RunPlugin(plugin://plugin.video.zeltorix.krasview/?router=history_clearing)"
+        />
+        <setting type="sep"/>
+        <setting type="bool"
+                 id="history_realise"
+                 visible="true"
+                 default="true"
+                 label="Включить пункт последний просмотр"
+        />
+        <setting type="text"
+                 id="history_realise_item"
+                 visible="false"
+                 default=""
+        />
+        <setting type="sep"/>
+    </category>
+    <category label="Библиотека">
+        <setting type="bool"
+                 id="library"
+                 visible="true"
+                 default="true"
+                 label="Включить библиотеку"
+        />
+        <setting label="Путь библиотеки-источника"
+                 type="folder"
+                 id="library_folder"
+                 source="auto"
+                 option="writeable"
+                 default=""
+        />
+        <setting label="Вернуть путь по умолчанию согласно ОС"
+                 type="action"
+                 action="RunPlugin(plugin://plugin.video.zeltorix.krasview/?router=library_folder_default)"
+        />
+        <setting type="sep"/>
+        <setting label="Удалить библиотеку-источник"
+                 type="action"
+                 action="RunPlugin(plugin://plugin.video.zeltorix.krasview/?router=library_folder_del)"
+        />
+        <setting type="sep"/>
+    </category>
+    <category label="Авторизация">
+        <setting label="Удалить авторизацию"
+                 type="action"
+                 action="RunPlugin(plugin://plugin.video.zeltorix.krasview/?router=del_authorization)"
+        />
+        <setting type="sep"/>
+        <setting type="text"
+                 id="hash"
+                 visible="false"
+                 default=""
+        />
+        <setting type="sep"/>
+        <setting type="text"
+                 id="hash_time"
+                 visible="false"
+                 default="0"
+        />
+        <setting type="sep"/>
+    </category>
+    <category label="Прокси">
+        <setting type="bool"
+                 id="proxy_bool"
+                 visible="true"
+                 default="false"
+                 label="Включить"
+        />
+        <setting type="sep"/>
+    </category>
+</settings>

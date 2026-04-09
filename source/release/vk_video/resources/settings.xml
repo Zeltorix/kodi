@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Интеграции">
+        <setting type="bool"
+                 id="united_search"
+                 visible="true"
+                 default="true"
+                 label="Интеграция с дополнением United Search"/>
+        <setting type="text"
+                 id="us_command"
+                 visible="false"
+                 default="router=search&keyword="/>
+        <setting type="sep"/>
+    </category>
+    <category label="История поиска">
+        <setting type="bool"
+                 id="history"
+                 visible="true"
+                 default="true"
+                 label="Включить историю поиска"/>
+        <setting type="text"
+                 id="history_dict"
+                 visible="false"
+                 default="{}"/>
+        <setting type="sep"/>
+        <setting label="Количество записей"
+                 type="slider"
+                 id="history_limit"
+                 default="50"
+                 range="1,500"
+                 option="int"/>
+        <setting type="sep"/>
+        <setting label="Очистить всю историю"
+                 type="action"
+                 action="RunScript(plugin.video.zeltorix.vk.video, 0, ?router=history_clearing)"/>
+        <setting type="sep"/>
+    </category>
+</settings>

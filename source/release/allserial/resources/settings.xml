@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Видео">
+        <setting type="bool"
+                 id="inputstream_adaptive"
+                 visible="true"
+                 default="true"
+                 label="Активация inputstream.adaptive"
+        />
+        <setting type="bool"
+                 id="mpd"
+                 visible="true"
+                 default="false"
+                 label="Включает выбор разрешения 1080+, но возможны проблемы с воспроизведением этого формата на разных устройствах, подробности на форуме"
+        />
+        <setting type="sep"/>
+    </category>
+    <category label="Интеграции">
+        <setting type="bool"
+                 id="united_search"
+                 visible="true"
+                 default="true"
+                 label="Интеграция с дополнением United Search"
+        />
+        <setting type="sep"/>
+        <setting type="text"
+                 id="us_command"
+                 visible="false"
+                 default="router=search&keyword="
+        />
+        <setting type="sep"/>
+    </category>
+    <category label="История">
+        <setting type="bool"
+                 id="history"
+                 visible="true"
+                 default="true"
+                 label="Включить историю поиска"
+        />
+        <setting type="sep"/>
+        <setting label="Количество записей"
+                 type="slider"
+                 id="history_limit"
+                 default="50"
+                 range="1,500"
+                 option="int"
+        />
+        <setting type="sep"/>
+        <setting label="Очистить всю историю"
+                 type="action"
+                 action="RunPlugin(plugin://plugin.video.zeltorix.allserial/?router=history_clearing)"
+        />
+        <setting type="sep"/>
+        <setting label="Зеркало"
+                 type="text"
+                 id="mirror"
+                 visible="true"
+                 default=""
+        />
+        <setting type="sep"/>
+    </category>
+    <category label="Библиотека">
+        <setting type="bool"
+                 id="library"
+                 visible="true"
+                 default="true"
+                 label="Включить библиотеку"
+        />
+        <setting type="sep"/>
+        <setting label="Путь библиотеки-источника"
+                 type="folder"
+                 id="library_folder"
+                 source="auto"
+                 option="writeable"
+                 default=""
+        />
+        <setting label="Вернуть путь по умолчанию согласно ОС"
+                 type="action"
+                 action="RunPlugin(plugin://plugin.video.zeltorix.allserial/?router=library_folder_default)"
+        />
+        <setting type="sep"/>
+<!--        <setting label="Удалить библиотеку-источник"-->
+<!--                 type="action"-->
+<!--                 action="RunPlugin(plugin://plugin.video.zeltorix.allserial/?router=library_folder_del)"/>-->
+        <setting type="sep"/>
+    </category>
+</settings>
