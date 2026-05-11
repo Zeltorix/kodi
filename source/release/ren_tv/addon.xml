@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="plugin.video.zeltorix.ren.tv" name="РЕН ТВ" version="0.3.34" provider-name="Zeltorix">
+    <requires>
+        <import addon="script.module.zeltorix.utility" version="0.0.145" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.video" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">For the REN TV website</summary>
+        <summary lang="ru_RU">Для сайта РЕН ТВ</summary>
+        <description lang="en_GB">To watch the live broadcast and other videos available on the REN TV website</description>
+        <description lang="ru_RU">Для просмотра прямого эфира и прочих видео доступных на сайте РЕН ТВ</description>
+        <disclaimer lang="en_GB">Unofficial plugin</disclaimer>
+        <disclaimer lang="ru_RU">Не официальный плагин</disclaimer>
+        <news>
+            v0.1.1 (2023-05-08)
+                [new] Добавлен прямой эфир, тв программу, категории, поиск
+                [fix] Поправленные некоторые ссылки воспроизведения YouTube
+            ...
+            v0.0.1 (2023-03-01)
+                [new] Старт проекта
+        </news>
+        <platform>all</platform>
+        <language>ru</language>
+        <license>GPL-3-or-later</license>
+        <forum>https://kodi.moy.su/forum/2-17-1</forum>
+        <source>https://github.com/Zeltorix/kodi/raw/main/release/ren_tv</source>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <debugging>true</debugging>
+    </extension>
+</addon>
